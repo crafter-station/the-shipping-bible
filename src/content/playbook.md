@@ -1,4 +1,4 @@
-# The Crafter Station Shipping Playbook
+# The Shipping Bible
 
 **First Draft — Living Document**
 
