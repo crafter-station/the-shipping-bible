@@ -1,46 +1,38 @@
-# Astro Starter Kit: Basics
+# The Shipping Bible
 
-```sh
-bun create astro@latest -- --template basics
+The Crafter Station Shipping Playbook. We ship. We build in public. We learn by doing.
+
+## About
+
+A minimal, edgy one-page website containing the principles and playbook for shipping products at Crafter Station. Built with Astro, featuring dark/light mode support and a clean, brutalist design.
+
+## Tech Stack
+
+- **Framework:** Astro 5.x
+- **Font:** Libre Baskerville
+- **Colors:** JavaScript Yellow (#F7DF1E) + Black/White
+- **Style:** Minimal, no rounded borders, high contrast
+
+## Development
+
+```bash
+# Install dependencies
+bun install
+
+# Start dev server (localhost:4321)
+bun dev
+
+# Build for production
+bun build
+
+# Preview production build
+bun preview
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Editing Content
 
-## 🚀 Project Structure
+The playbook content lives in `src/content/playbook.md`. Edit this file to update the content - it's pure Markdown for easy iteration.
 
-Inside of your Astro project, you'll see the following folders and files:
+## License
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+MIT
