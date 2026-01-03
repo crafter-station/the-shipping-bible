@@ -2,12 +2,93 @@
 interface Props {
 	title?: string;
 	description?: string;
+	image?: string;
+	type?: 'website' | 'article';
+	publishedTime?: string;
+	modifiedTime?: string;
 }
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const { 
 	title = 'The Shipping Bible | Crafter Station',
-	description = 'The Crafter Station Shipping Playbook. We ship. We build in public. We learn by doing.'
+	description = 'The Crafter Station Shipping Playbook. We ship. We build in public. We learn by doing. A guide for LatAm tech builders to ship consistently and grow their community.',
+	image = '/og-image.svg',
+	type = 'website',
+	publishedTime,
+	modifiedTime,
 } = Astro.props;
+
+const ogImageURL = new URL(image, Astro.site);
+
+// Keywords for SEO
+const keywords = [
+	'shipping playbook',
+	'build in public',
+	'LatAm tech',
+	'developer community',
+	'Crafter Station',
+	'startup playbook',
+	'indie hacker',
+	'ship fast',
+	'product development',
+	'open source',
+	'tech community',
+	'Lima Peru',
+	'software development',
+	'developer tools'
+].join(', ');
+
+// JSON-LD Structured Data
+const organizationSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'Organization',
+	name: 'Crafter Station',
+	url: 'https://www.crafterstation.com',
+	logo: 'https://www.crafterstation.com/logo.png',
+	description: 'Open source enthusiasts crafting developer tools and growing a community of builders.',
+	foundingLocation: {
+		'@type': 'Place',
+		name: 'Lima, Peru'
+	},
+	sameAs: [
+		'https://twitter.com/CrafterStation',
+		'https://github.com/crafter-station',
+		'https://discord.gg/crafterstation'
+	]
+};
+
+const webPageSchema = {
+	'@context': 'https://schema.org',
+	'@type': type === 'article' ? 'Article' : 'WebPage',
+	name: title,
+	description: description,
+	url: canonicalURL.href,
+	image: ogImageURL.href,
+	inLanguage: 'en',
+	isPartOf: {
+		'@type': 'WebSite',
+		name: 'The Shipping Bible',
+		url: Astro.site?.href
+	},
+	publisher: organizationSchema,
+	...(publishedTime && { datePublished: publishedTime }),
+	...(modifiedTime && { dateModified: modifiedTime }),
+	keywords: keywords
+};
+
+const breadcrumbSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{
+			'@type': 'ListItem',
+			position: 1,
+			name: 'The Shipping Bible',
+			item: Astro.site?.href
+		}
+	]
+};
 ---
 
 <!doctype html>
@@ -15,16 +96,69 @@ const {
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
+		
+		<!-- Primary Meta Tags -->
+		<title>{title}</title>
+		<meta name="title" content={title} />
 		<meta name="description" content={description} />
+		<meta name="keywords" content={keywords} />
+		<meta name="author" content="Crafter Station" />
+		<meta name="robots" content="index, follow" />
+		<meta name="googlebot" content="index, follow" />
+		
+		<!-- Canonical URL -->
+		<link rel="canonical" href={canonicalURL.href} />
+		
+		<!-- Favicon -->
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="apple-touch-icon" href="/favicon.svg" />
+		
+		<!-- Theme Color -->
+		<meta name="theme-color" content="#F7DF1E" />
+		<meta name="msapplication-TileColor" content="#000000" />
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content={type} />
+		<meta property="og:url" content={canonicalURL.href} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
+		<meta property="og:image" content={ogImageURL.href} />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:image:alt" content="The Shipping Bible - A playbook for shipping fast by Crafter Station" />
+		<meta property="og:site_name" content="The Shipping Bible" />
+		<meta property="og:locale" content="en_US" />
+		{publishedTime && <meta property="article:published_time" content={publishedTime} />}
+		{modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+		<meta property="article:author" content="Crafter Station" />
+		
+		<!-- Twitter -->
 		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:url" content={canonicalURL.href} />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={ogImageURL.href} />
+		<meta name="twitter:image:alt" content="The Shipping Bible - A playbook for shipping fast by Crafter Station" />
+		<meta name="twitter:site" content="@CrafterStation" />
+		<meta name="twitter:creator" content="@CrafterStation" />
+		
+		<!-- Additional SEO -->
+		<meta name="generator" content={Astro.generator} />
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="me" href="https://twitter.com/CrafterStation" />
+		<link rel="me" href="https://github.com/crafter-station" />
+		
+		<!-- JSON-LD Structured Data -->
+		<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+		<script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
+		<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+		
+		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-		<title>{title}</title>
+		<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+		
+		<!-- Theme Script (inline to prevent flash) -->
 		<script is:inline>
 			const theme = (() => {
 				if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
@@ -60,19 +194,19 @@ const {
 		--color-gray-800: #262626;
 		--color-gray-900: #171717;
 
-		--bg: var(--color-white);
-		--bg-alt: var(--color-gray-100);
-		--text: var(--color-gray-600);
-		--text-muted: var(--color-gray-400);
+		--bg: var(--color-gray-100);
+		--bg-alt: var(--color-gray-200);
+		--text: var(--color-gray-900);
+		--text-muted: var(--color-gray-600);
 		--accent: var(--color-yellow);
 		--border: var(--color-black);
 	}
 
 	html.dark {
-		--bg: var(--color-black);
-		--bg-alt: var(--color-gray-900);
-		--text: var(--color-gray-400);
-		--text-muted: var(--color-gray-500);
+		--bg: var(--color-gray-900);
+		--bg-alt: var(--color-gray-800);
+		--text: var(--color-gray-100);
+		--text-muted: var(--color-gray-400);
 		--accent: var(--color-yellow);
 		--border: var(--color-yellow);
 	}
@@ -84,10 +218,10 @@ const {
 	}
 
 	html {
-		font-family: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+		font-family: 'STIX Two Text', Georgia, 'Times New Roman', serif;
 		font-weight: 400;
 		font-size: 16px;
-		line-height: 1.6;
+		line-height: 1.8;
 		background-color: var(--bg);
 		color: var(--text);
 		scroll-behavior: smooth;
@@ -97,6 +231,25 @@ const {
 		min-height: 100vh;
 		background-color: var(--bg);
 		transition: background-color 0.2s ease, color 0.2s ease;
+		position: relative;
+	}
+
+	body::before {
+		content: '';
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		opacity: 0.25;
+		z-index: 9999;
+		background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.5' numOctaves='5' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+		background-size: 256px 256px;
+	}
+
+	html.dark body::before {
+		opacity: 0.08;
 	}
 
 	::selection {
@@ -143,16 +296,16 @@ const {
 	}
 
 	p {
-		margin-bottom: 1rem;
+		margin-bottom: 1.5rem;
 	}
 
 	ul, ol {
-		margin-bottom: 1rem;
+		margin-bottom: 1.5rem;
 		padding-left: 1.5rem;
 	}
 
 	li {
-		margin-bottom: 0.5rem;
+		margin-bottom: 0.75rem;
 	}
 
 	li::marker {
@@ -162,7 +315,7 @@ const {
 	blockquote {
 		border-left: 4px solid var(--accent);
 		padding-left: 1rem;
-		margin: 1.5rem 0;
+		margin: 2rem 0;
 		font-style: italic;
 		background-color: var(--bg-alt);
 		padding: 1rem;
