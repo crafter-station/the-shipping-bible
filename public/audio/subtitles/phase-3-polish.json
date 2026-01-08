@@ -1,0 +1,414 @@
+{
+  "section_id": "phase-3-polish",
+  "section_title": "Phase 3: The Polish",
+  "duration": 28620,
+  "sentences": [
+    {
+      "text": "Phase 3: The Polish. Make it presentable, not perfect.",
+      "start_time": 0,
+      "end_time": 4293,
+      "words": [
+        {
+          "text": "Phase",
+          "start_time": 0,
+          "end_time": 466.6304347826087
+        },
+        {
+          "text": "3:",
+          "start_time": 466.6304347826087,
+          "end_time": 653.2826086956521
+        },
+        {
+          "text": "The",
+          "start_time": 653.2826086956521,
+          "end_time": 933.2608695652173
+        },
+        {
+          "text": "Polish.",
+          "start_time": 933.2608695652173,
+          "end_time": 1586.5434782608695
+        },
+        {
+          "text": "Make",
+          "start_time": 1586.5434782608695,
+          "end_time": 1959.8478260869565
+        },
+        {
+          "text": "it",
+          "start_time": 1959.8478260869565,
+          "end_time": 2146.5
+        },
+        {
+          "text": "presentable,",
+          "start_time": 2146.5,
+          "end_time": 3266.413043478261
+        },
+        {
+          "text": "not",
+          "start_time": 3266.413043478261,
+          "end_time": 3546.391304347826
+        },
+        {
+          "text": "perfect.",
+          "start_time": 3546.391304347826,
+          "end_time": 4293
+        }
+      ]
+    },
+    {
+      "text": "Write a clear README with:",
+      "start_time": 4293,
+      "end_time": 6360,
+      "words": [
+        {
+          "text": "Write",
+          "start_time": 4293,
+          "end_time": 4762.772727272727
+        },
+        {
+          "text": "a",
+          "start_time": 4762.772727272727,
+          "end_time": 4856.727272727272
+        },
+        {
+          "text": "clear",
+          "start_time": 4856.727272727272,
+          "end_time": 5326.499999999999
+        },
+        {
+          "text": "README",
+          "start_time": 5326.499999999999,
+          "end_time": 5890.227272727272
+        },
+        {
+          "text": "with:",
+          "start_time": 5890.227272727272,
+          "end_time": 6359.999999999999
+        }
+      ]
+    },
+    {
+      "text": "What it does in one sentence.",
+      "start_time": 6360,
+      "end_time": 8665.5,
+      "words": [
+        {
+          "text": "What",
+          "start_time": 6360,
+          "end_time": 6744.25
+        },
+        {
+          "text": "it",
+          "start_time": 6744.25,
+          "end_time": 6936.375
+        },
+        {
+          "text": "does",
+          "start_time": 6936.375,
+          "end_time": 7320.625
+        },
+        {
+          "text": "in",
+          "start_time": 7320.625,
+          "end_time": 7512.75
+        },
+        {
+          "text": "one",
+          "start_time": 7512.75,
+          "end_time": 7800.9375
+        },
+        {
+          "text": "sentence.",
+          "start_time": 7800.9375,
+          "end_time": 8665.5
+        }
+      ]
+    },
+    {
+      "text": "Why we built it.",
+      "start_time": 8665.5,
+      "end_time": 9937.5,
+      "words": [
+        {
+          "text": "Why",
+          "start_time": 8665.5,
+          "end_time": 8959.038461538461
+        },
+        {
+          "text": "we",
+          "start_time": 8959.038461538461,
+          "end_time": 9154.73076923077
+        },
+        {
+          "text": "built",
+          "start_time": 9154.73076923077,
+          "end_time": 9643.961538461539
+        },
+        {
+          "text": "it.",
+          "start_time": 9643.961538461539,
+          "end_time": 9937.5
+        }
+      ]
+    },
+    {
+      "text": "How to use it.",
+      "start_time": 9937.5,
+      "end_time": 11050.5,
+      "words": [
+        {
+          "text": "How",
+          "start_time": 9937.5,
+          "end_time": 10241.045454545454
+        },
+        {
+          "text": "to",
+          "start_time": 10241.045454545454,
+          "end_time": 10443.40909090909
+        },
+        {
+          "text": "use",
+          "start_time": 10443.40909090909,
+          "end_time": 10746.954545454544
+        },
+        {
+          "text": "it.",
+          "start_time": 10746.954545454544,
+          "end_time": 11050.499999999998
+        }
+      ]
+    },
+    {
+      "text": "Tech stack.",
+      "start_time": 11050.5,
+      "end_time": 11925,
+      "words": [
+        {
+          "text": "Tech",
+          "start_time": 11050.5,
+          "end_time": 11400.3
+        },
+        {
+          "text": "stack.",
+          "start_time": 11400.3,
+          "end_time": 11925
+        }
+      ]
+    },
+    {
+      "text": "Link to demo or live version.",
+      "start_time": 11925,
+      "end_time": 14230.5,
+      "words": [
+        {
+          "text": "Link",
+          "start_time": 11925,
+          "end_time": 12309.25
+        },
+        {
+          "text": "to",
+          "start_time": 12309.25,
+          "end_time": 12501.375
+        },
+        {
+          "text": "demo",
+          "start_time": 12501.375,
+          "end_time": 12885.625
+        },
+        {
+          "text": "or",
+          "start_time": 12885.625,
+          "end_time": 13077.75
+        },
+        {
+          "text": "live",
+          "start_time": 13077.75,
+          "end_time": 13462
+        },
+        {
+          "text": "version.",
+          "start_time": 13462,
+          "end_time": 14230.5
+        }
+      ]
+    },
+    {
+      "text": "Deploy it on Vercel, Railway, wherever.",
+      "start_time": 14230.5,
+      "end_time": 17331,
+      "words": [
+        {
+          "text": "Deploy",
+          "start_time": 14230.5,
+          "end_time": 14777.64705882353
+        },
+        {
+          "text": "it",
+          "start_time": 14777.64705882353,
+          "end_time": 14960.029411764706
+        },
+        {
+          "text": "on",
+          "start_time": 14960.029411764706,
+          "end_time": 15142.411764705883
+        },
+        {
+          "text": "Vercel,",
+          "start_time": 15142.411764705883,
+          "end_time": 15780.75
+        },
+        {
+          "text": "Railway,",
+          "start_time": 15780.75,
+          "end_time": 16510.279411764706
+        },
+        {
+          "text": "wherever.",
+          "start_time": 16510.279411764706,
+          "end_time": 17331
+        }
+      ]
+    },
+    {
+      "text": "Test the happy path. Make sure the demo works.",
+      "start_time": 17331,
+      "end_time": 20988,
+      "words": [
+        {
+          "text": "Test",
+          "start_time": 17331,
+          "end_time": 17715.947368421053
+        },
+        {
+          "text": "the",
+          "start_time": 17715.947368421053,
+          "end_time": 18004.657894736843
+        },
+        {
+          "text": "happy",
+          "start_time": 18004.657894736843,
+          "end_time": 18485.84210526316
+        },
+        {
+          "text": "path.",
+          "start_time": 18485.84210526316,
+          "end_time": 18967.026315789477
+        },
+        {
+          "text": "Make",
+          "start_time": 18967.026315789477,
+          "end_time": 19351.97368421053
+        },
+        {
+          "text": "sure",
+          "start_time": 19351.97368421053,
+          "end_time": 19736.921052631584
+        },
+        {
+          "text": "the",
+          "start_time": 19736.921052631584,
+          "end_time": 20025.631578947374
+        },
+        {
+          "text": "demo",
+          "start_time": 20025.631578947374,
+          "end_time": 20410.578947368427
+        },
+        {
+          "text": "works.",
+          "start_time": 20410.578947368427,
+          "end_time": 20988.000000000007
+        }
+      ]
+    },
+    {
+      "text": "Take screenshots and screen recordings of key features.",
+      "start_time": 20988,
+      "end_time": 25360.5,
+      "words": [
+        {
+          "text": "Take",
+          "start_time": 20988,
+          "end_time": 21352.375
+        },
+        {
+          "text": "screenshots",
+          "start_time": 21352.375,
+          "end_time": 22354.40625
+        },
+        {
+          "text": "and",
+          "start_time": 22354.40625,
+          "end_time": 22627.6875
+        },
+        {
+          "text": "screen",
+          "start_time": 22627.6875,
+          "end_time": 23174.25
+        },
+        {
+          "text": "recordings",
+          "start_time": 23174.25,
+          "end_time": 24085.1875
+        },
+        {
+          "text": "of",
+          "start_time": 24085.1875,
+          "end_time": 24267.375
+        },
+        {
+          "text": "key",
+          "start_time": 24267.375,
+          "end_time": 24540.65625
+        },
+        {
+          "text": "features.",
+          "start_time": 24540.65625,
+          "end_time": 25360.5
+        }
+      ]
+    },
+    {
+      "text": "Create a simple landing page if relevant.",
+      "start_time": 25360.5,
+      "end_time": 28620,
+      "words": [
+        {
+          "text": "Create",
+          "start_time": 25360.5,
+          "end_time": 25919.27142857143
+        },
+        {
+          "text": "a",
+          "start_time": 25919.27142857143,
+          "end_time": 26012.4
+        },
+        {
+          "text": "simple",
+          "start_time": 26012.4,
+          "end_time": 26571.17142857143
+        },
+        {
+          "text": "landing",
+          "start_time": 26571.17142857143,
+          "end_time": 27223.07142857143
+        },
+        {
+          "text": "page",
+          "start_time": 27223.07142857143,
+          "end_time": 27595.585714285717
+        },
+        {
+          "text": "if",
+          "start_time": 27595.585714285717,
+          "end_time": 27781.84285714286
+        },
+        {
+          "text": "relevant.",
+          "start_time": 27781.84285714286,
+          "end_time": 28620.000000000004
+        }
+      ]
+    }
+  ]
+}

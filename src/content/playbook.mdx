@@ -3,6 +3,7 @@
 ---
 
 import AudioPlayer from '../components/AudioPlayer.astro';
+import ShippingCycle from '../components/ShippingCycle.tsx';
 
 # The Shipping Bible
 
@@ -12,7 +13,7 @@ import AudioPlayer from '../components/AudioPlayer.astro';
 
 ## Our Philosophy
 
-<AudioPlayer src="/audio/philosophy.mp3" title="Listen to Philosophy section" />
+<AudioPlayer src="/audio/philosophy.mp3" title="Listen to Philosophy section" subtitlesUrl="/audio/subtitles/philosophy.json" />
 
 **We ship. We build in public. We learn by doing.**
 
@@ -24,11 +25,44 @@ This playbook exists to help us ship consistently, grow our community, and keep 
 
 ---
 
+## The Shipping Cycle
+
+<AudioPlayer src="/audio/shipping-cycle.mp3" title="Listen to The Shipping Cycle" subtitlesUrl="/audio/subtitles/shipping-cycle.json" />
+
+> Shipping isn't a one-time event. It's a rhythm.
+
+<ShippingCycle client:load />
+
+Most people think shipping is linear: build something, launch it, done. But the builders who maintain momentum know the truth — **shipping is a continuous cycle**.
+
+Every rotation through the cycle is valid, whether it takes 5 minutes or 5 weeks:
+
+- **Think:** Capture an idea, a question, a problem worth solving
+- **Share:** Tweet it, post it, tell someone — this creates accountability
+- **Build:** Code, design, write — any form of creative work
+- **Ship:** Put it out there — a thought, a WIP, a demo, a full launch
+- **Learn:** Gather feedback, reflect, and let it feed your next idea
+
+The 6 phases detailed below? That's one **full rotation** — a complete project from spark to follow-up.
+
+But you can run smaller cycles every day:
+
+| Cycle Speed | Example Output | Time |
+|-------------|----------------|------|
+| Micro | A tweet sharing what you're working on | 5 min |
+| Mini | A WIP screenshot or short video | 30 min |
+| Sprint | A quick prototype or feature | 2-4 hours |
+| Full | A complete project with launch | Days/Week |
+
+**The key insight:** Every output maintains momentum. A thought shared is a ship. A demo posted is a ship. Don't wait for "big" launches to feel like you're shipping — the cycle rewards consistency over size.
+
+---
+
 ## The Shipping Lifecycle
 
 ### Phase 1: The Spark
 
-<AudioPlayer src="/audio/phase-1-spark.mp3" title="Listen to Phase 1: The Spark" />
+<AudioPlayer src="/audio/phase-1-spark.mp3" title="Listen to Phase 1: The Spark" subtitlesUrl="/audio/subtitles/phase-1-spark.json" />
 
 **From idea to commitment**
 
@@ -47,7 +81,7 @@ This playbook exists to help us ship consistently, grow our community, and keep 
 
 ### Phase 2: The Build
 
-<AudioPlayer src="/audio/phase-2-build.mp3" title="Listen to Phase 2: The Build" />
+<AudioPlayer src="/audio/phase-2-build.mp3" title="Listen to Phase 2: The Build" subtitlesUrl="/audio/subtitles/phase-2-build.json" />
 
 **Heads down, cameras optional**
 
@@ -69,7 +103,7 @@ This playbook exists to help us ship consistently, grow our community, and keep 
 
 ### Phase 3: The Polish
 
-<AudioPlayer src="/audio/phase-3-polish.mp3" title="Listen to Phase 3: The Polish" />
+<AudioPlayer src="/audio/phase-3-polish.mp3" title="Listen to Phase 3: The Polish" subtitlesUrl="/audio/subtitles/phase-3-polish.json" />
 
 **Make it presentable, not perfect**
 
@@ -88,7 +122,7 @@ This playbook exists to help us ship consistently, grow our community, and keep 
 
 ### Phase 3.5: The Pre-Launch
 
-<AudioPlayer src="/audio/phase-3-5-prelaunch.mp3" title="Listen to Phase 3.5: The Pre-Launch" />
+<AudioPlayer src="/audio/phase-3-5-prelaunch.mp3" title="Listen to Phase 3.5: The Pre-Launch" subtitlesUrl="/audio/subtitles/phase-3-5-prelaunch.json" />
 
 **Build anticipation before you drop**
 
@@ -162,7 +196,7 @@ Instead of going from zero to launch, build momentum:
 
 ### Phase 4: The Content
 
-<AudioPlayer src="/audio/phase-4-content.mp3" title="Listen to Phase 4: The Content" />
+<AudioPlayer src="/audio/phase-4-content.mp3" title="Listen to Phase 4: The Content" subtitlesUrl="/audio/subtitles/phase-4-content.json" />
 
 **This is where the magic happens**
 
@@ -198,7 +232,7 @@ Add the video/demo directly in the post (native uploads perform better)
 
 ### Phase 5: The Launch
 
-<AudioPlayer src="/audio/phase-5-launch.mp3" title="Listen to Phase 5: The Launch" />
+<AudioPlayer src="/audio/phase-5-launch.mp3" title="Listen to Phase 5: The Launch" subtitlesUrl="/audio/subtitles/phase-5-launch.json" />
 
 **Ship it to the world**
 
@@ -217,7 +251,7 @@ Add the video/demo directly in the post (native uploads perform better)
 
 ### Phase 6: The Follow-Up
 
-<AudioPlayer src="/audio/phase-6-followup.mp3" title="Listen to Phase 6: The Follow-Up" />
+<AudioPlayer src="/audio/phase-6-followup.mp3" title="Listen to Phase 6: The Follow-Up" subtitlesUrl="/audio/subtitles/phase-6-followup.json" />
 
 **Keep the momentum**
 
@@ -234,7 +268,7 @@ Add the video/demo directly in the post (native uploads perform better)
 
 ## Quick Reference: Launch Checklist
 
-<AudioPlayer src="/audio/launch-checklist.mp3" title="Listen to Launch Checklist" />
+<AudioPlayer src="/audio/launch-checklist.mp3" title="Listen to Launch Checklist" subtitlesUrl="/audio/subtitles/launch-checklist.json" />
 
 - [ ] Idea captured and scoped
 - [ ] Time constraint set
@@ -255,7 +289,7 @@ Add the video/demo directly in the post (native uploads perform better)
 
 ## The Crafter Station Principles
 
-<AudioPlayer src="/audio/principles.mp3" title="Listen to Crafter Station Principles" />
+<AudioPlayer src="/audio/principles.mp3" title="Listen to Crafter Station Principles" subtitlesUrl="/audio/subtitles/principles.json" />
 
 1. **Ship > Perfect.** A working demo beats a polished pitch deck.
 2. **Build in public.** The process is content. Share the journey.

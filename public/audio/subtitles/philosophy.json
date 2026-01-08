@@ -1,0 +1,405 @@
+{
+  "section_id": "philosophy",
+  "section_title": "Our Philosophy",
+  "duration": 27576,
+  "sentences": [
+    {
+      "text": "We ship. We build in public. We learn by doing.",
+      "start_time": 0,
+      "end_time": 3078.5558194774344,
+      "words": [
+        {
+          "text": "We",
+          "start_time": 0,
+          "end_time": 162.02925365670706
+        },
+        {
+          "text": "ship.",
+          "start_time": 162.02925365670706,
+          "end_time": 567.1023877984746
+        },
+        {
+          "text": "We",
+          "start_time": 567.1023877984746,
+          "end_time": 729.1316414551817
+        },
+        {
+          "text": "build",
+          "start_time": 729.1316414551817,
+          "end_time": 1134.2047755969493
+        },
+        {
+          "text": "in",
+          "start_time": 1134.2047755969493,
+          "end_time": 1296.2340292536564
+        },
+        {
+          "text": "public.",
+          "start_time": 1296.2340292536564,
+          "end_time": 1863.3364170521313
+        },
+        {
+          "text": "We",
+          "start_time": 1863.3364170521313,
+          "end_time": 2025.3656707088385
+        },
+        {
+          "text": "learn",
+          "start_time": 2025.3656707088385,
+          "end_time": 2430.438804850606
+        },
+        {
+          "text": "by",
+          "start_time": 2430.438804850606,
+          "end_time": 2592.4680585073133
+        },
+        {
+          "text": "doing.",
+          "start_time": 2592.4680585073133,
+          "end_time": 3078.5558194774344
+        }
+      ]
+    },
+    {
+      "text": "At Crafter Station, we don't wait for perfect. We believe that a shipped project teaches more than a hundred planned ones.Every line of code we share, every demo we record, every build session we stream is a statement:",
+      "start_time": 3078.5558194774344,
+      "end_time": 17357.814726840854,
+      "words": [
+        {
+          "text": "At",
+          "start_time": 3078.5558194774344,
+          "end_time": 3236.3376858571405
+        },
+        {
+          "text": "Crafter",
+          "start_time": 3236.3376858571405,
+          "end_time": 3788.5742181861124
+        },
+        {
+          "text": "Station,",
+          "start_time": 3788.5742181861124,
+          "end_time": 4419.701683704938
+        },
+        {
+          "text": "we",
+          "start_time": 4419.701683704938,
+          "end_time": 4577.483550084644
+        },
+        {
+          "text": "don't",
+          "start_time": 4577.483550084644,
+          "end_time": 4971.938216033909
+        },
+        {
+          "text": "wait",
+          "start_time": 4971.938216033909,
+          "end_time": 5287.501948793321
+        },
+        {
+          "text": "for",
+          "start_time": 5287.501948793321,
+          "end_time": 5524.174748362881
+        },
+        {
+          "text": "perfect.",
+          "start_time": 5524.174748362881,
+          "end_time": 6155.302213881706
+        },
+        {
+          "text": "We",
+          "start_time": 6155.302213881706,
+          "end_time": 6313.084080261412
+        },
+        {
+          "text": "believe",
+          "start_time": 6313.084080261412,
+          "end_time": 6865.320612590384
+        },
+        {
+          "text": "that",
+          "start_time": 6865.320612590384,
+          "end_time": 7180.884345349797
+        },
+        {
+          "text": "a",
+          "start_time": 7180.884345349797,
+          "end_time": 7259.77527853965
+        },
+        {
+          "text": "shipped",
+          "start_time": 7259.77527853965,
+          "end_time": 7812.011810868622
+        },
+        {
+          "text": "project",
+          "start_time": 7812.011810868622,
+          "end_time": 8364.248343197594
+        },
+        {
+          "text": "teaches",
+          "start_time": 8364.248343197594,
+          "end_time": 8916.484875526567
+        },
+        {
+          "text": "more",
+          "start_time": 8916.484875526567,
+          "end_time": 9232.048608285979
+        },
+        {
+          "text": "than",
+          "start_time": 9232.048608285979,
+          "end_time": 9547.612341045391
+        },
+        {
+          "text": "a",
+          "start_time": 9547.612341045391,
+          "end_time": 9626.503274235245
+        },
+        {
+          "text": "hundred",
+          "start_time": 9626.503274235245,
+          "end_time": 10178.739806564217
+        },
+        {
+          "text": "planned",
+          "start_time": 10178.739806564217,
+          "end_time": 10730.97633889319
+        },
+        {
+          "text": "ones.Every",
+          "start_time": 10730.97633889319,
+          "end_time": 11519.88567079172
+        },
+        {
+          "text": "line",
+          "start_time": 11519.88567079172,
+          "end_time": 11835.449403551132
+        },
+        {
+          "text": "of",
+          "start_time": 11835.449403551132,
+          "end_time": 11993.231269930839
+        },
+        {
+          "text": "code",
+          "start_time": 11993.231269930839,
+          "end_time": 12308.79500269025
+        },
+        {
+          "text": "we",
+          "start_time": 12308.79500269025,
+          "end_time": 12466.576869069957
+        },
+        {
+          "text": "share,",
+          "start_time": 12466.576869069957,
+          "end_time": 12939.922468209075
+        },
+        {
+          "text": "every",
+          "start_time": 12939.922468209075,
+          "end_time": 13334.377134158342
+        },
+        {
+          "text": "demo",
+          "start_time": 13334.377134158342,
+          "end_time": 13649.940866917754
+        },
+        {
+          "text": "we",
+          "start_time": 13649.940866917754,
+          "end_time": 13807.72273329746
+        },
+        {
+          "text": "record,",
+          "start_time": 13807.72273329746,
+          "end_time": 14359.959265626432
+        },
+        {
+          "text": "every",
+          "start_time": 14359.959265626432,
+          "end_time": 14754.413931575698
+        },
+        {
+          "text": "build",
+          "start_time": 14754.413931575698,
+          "end_time": 15148.868597524965
+        },
+        {
+          "text": "session",
+          "start_time": 15148.868597524965,
+          "end_time": 15701.105129853937
+        },
+        {
+          "text": "we",
+          "start_time": 15701.105129853937,
+          "end_time": 15858.886996233643
+        },
+        {
+          "text": "stream",
+          "start_time": 15858.886996233643,
+          "end_time": 16332.232595372761
+        },
+        {
+          "text": "is",
+          "start_time": 16332.232595372761,
+          "end_time": 16490.014461752467
+        },
+        {
+          "text": "a",
+          "start_time": 16490.014461752467,
+          "end_time": 16568.90539494232
+        },
+        {
+          "text": "statement:",
+          "start_time": 16568.90539494232,
+          "end_time": 17357.814726840854
+        }
+      ]
+    },
+    {
+      "text": "LatAm tech talent is here, and we're building the future.",
+      "start_time": 17357.814726840854,
+      "end_time": 21091.38242280285,
+      "words": [
+        {
+          "text": "LatAm",
+          "start_time": 17357.814726840854,
+          "end_time": 17746.728028503563
+        },
+        {
+          "text": "tech",
+          "start_time": 17746.728028503563,
+          "end_time": 18057.85866983373
+        },
+        {
+          "text": "talent",
+          "start_time": 18057.85866983373,
+          "end_time": 18524.55463182898
+        },
+        {
+          "text": "is",
+          "start_time": 18524.55463182898,
+          "end_time": 18680.119952494064
+        },
+        {
+          "text": "here,",
+          "start_time": 18680.119952494064,
+          "end_time": 19069.033254156773
+        },
+        {
+          "text": "and",
+          "start_time": 19069.033254156773,
+          "end_time": 19302.381235154397
+        },
+        {
+          "text": "we're",
+          "start_time": 19302.381235154397,
+          "end_time": 19691.294536817106
+        },
+        {
+          "text": "building",
+          "start_time": 19691.294536817106,
+          "end_time": 20313.55581947744
+        },
+        {
+          "text": "the",
+          "start_time": 20313.55581947744,
+          "end_time": 20546.903800475062
+        },
+        {
+          "text": "future.",
+          "start_time": 20546.903800475062,
+          "end_time": 21091.382422802853
+        }
+      ]
+    },
+    {
+      "text": "This playbook exists to help us ship consistently, grow our community, and keep the momentum going.",
+      "start_time": 21091.38242280285,
+      "end_time": 27576,
+      "words": [
+        {
+          "text": "This",
+          "start_time": 21091.38242280285,
+          "end_time": 21400.173736002715
+        },
+        {
+          "text": "playbook",
+          "start_time": 21400.173736002715,
+          "end_time": 22017.756362402444
+        },
+        {
+          "text": "exists",
+          "start_time": 22017.756362402444,
+          "end_time": 22480.94333220224
+        },
+        {
+          "text": "to",
+          "start_time": 22480.94333220224,
+          "end_time": 22635.338988802174
+        },
+        {
+          "text": "help",
+          "start_time": 22635.338988802174,
+          "end_time": 22944.13030200204
+        },
+        {
+          "text": "us",
+          "start_time": 22944.13030200204,
+          "end_time": 23098.52595860197
+        },
+        {
+          "text": "ship",
+          "start_time": 23098.52595860197,
+          "end_time": 23407.317271801836
+        },
+        {
+          "text": "consistently,",
+          "start_time": 23407.317271801836,
+          "end_time": 24410.889039701397
+        },
+        {
+          "text": "grow",
+          "start_time": 24410.889039701397,
+          "end_time": 24719.68035290126
+        },
+        {
+          "text": "our",
+          "start_time": 24719.68035290126,
+          "end_time": 24951.27383780116
+        },
+        {
+          "text": "community,",
+          "start_time": 24951.27383780116,
+          "end_time": 25723.252120800822
+        },
+        {
+          "text": "and",
+          "start_time": 25723.252120800822,
+          "end_time": 25954.84560570072
+        },
+        {
+          "text": "keep",
+          "start_time": 25954.84560570072,
+          "end_time": 26263.636918900585
+        },
+        {
+          "text": "the",
+          "start_time": 26263.636918900585,
+          "end_time": 26495.230403800484
+        },
+        {
+          "text": "momentum",
+          "start_time": 26495.230403800484,
+          "end_time": 27112.813030200214
+        },
+        {
+          "text": "going.",
+          "start_time": 27112.813030200214,
+          "end_time": 27576.00000000001
+        }
+      ]
+    }
+  ]
+}

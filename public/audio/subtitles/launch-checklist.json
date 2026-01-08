@@ -1,0 +1,377 @@
+{
+  "section_id": "launch-checklist",
+  "section_title": "Quick Reference: Launch Checklist",
+  "duration": 32040,
+  "sentences": [
+    {
+      "text": "Quick Reference: Launch Checklist.",
+      "start_time": 0,
+      "end_time": 2904.96,
+      "words": [
+        {
+          "text": "Quick",
+          "start_time": 0,
+          "end_time": 468.541935483871
+        },
+        {
+          "text": "Reference:",
+          "start_time": 468.541935483871,
+          "end_time": 1405.625806451613
+        },
+        {
+          "text": "Launch",
+          "start_time": 1405.625806451613,
+          "end_time": 1967.8761290322582
+        },
+        {
+          "text": "Checklist.",
+          "start_time": 1967.8761290322582,
+          "end_time": 2904.96
+        }
+      ]
+    },
+    {
+      "text": "Idea captured and scoped.",
+      "start_time": 2904.96,
+      "end_time": 5040.96,
+      "words": [
+        {
+          "text": "Idea",
+          "start_time": 2904.96,
+          "end_time": 3293.3236363636365
+        },
+        {
+          "text": "captured",
+          "start_time": 3293.3236363636365,
+          "end_time": 4070.050909090909
+        },
+        {
+          "text": "and",
+          "start_time": 4070.050909090909,
+          "end_time": 4361.323636363636
+        },
+        {
+          "text": "scoped.",
+          "start_time": 4361.323636363636,
+          "end_time": 5040.96
+        }
+      ]
+    },
+    {
+      "text": "Time constraint set.",
+      "start_time": 5040.96,
+      "end_time": 6749.76,
+      "words": [
+        {
+          "text": "Time",
+          "start_time": 5040.96,
+          "end_time": 5420.693333333334
+        },
+        {
+          "text": "constraint",
+          "start_time": 5420.693333333334,
+          "end_time": 6370.026666666667
+        },
+        {
+          "text": "set.",
+          "start_time": 6370.026666666667,
+          "end_time": 6749.76
+        }
+      ]
+    },
+    {
+      "text": "Commitment made public.",
+      "start_time": 6749.76,
+      "end_time": 8714.880000000001,
+      "words": [
+        {
+          "text": "Commitment",
+          "start_time": 6749.76,
+          "end_time": 7685.531428571429
+        },
+        {
+          "text": "made",
+          "start_time": 7685.531428571429,
+          "end_time": 8059.840000000001
+        },
+        {
+          "text": "public.",
+          "start_time": 8059.840000000001,
+          "end_time": 8714.880000000001
+        }
+      ]
+    },
+    {
+      "text": "Core feature built.",
+      "start_time": 8714.880000000001,
+      "end_time": 10338.240000000002,
+      "words": [
+        {
+          "text": "Core",
+          "start_time": 8714.880000000001,
+          "end_time": 9096.84705882353
+        },
+        {
+          "text": "feature",
+          "start_time": 9096.84705882353,
+          "end_time": 9765.289411764707
+        },
+        {
+          "text": "built.",
+          "start_time": 9765.289411764707,
+          "end_time": 10338.240000000002
+        }
+      ]
+    },
+    {
+      "text": "Deployed and working.",
+      "start_time": 10338.240000000002,
+      "end_time": 12132.480000000001,
+      "words": [
+        {
+          "text": "Deployed",
+          "start_time": 10338.240000000002,
+          "end_time": 11093.709473684212
+        },
+        {
+          "text": "and",
+          "start_time": 11093.709473684212,
+          "end_time": 11377.010526315791
+        },
+        {
+          "text": "working.",
+          "start_time": 11377.010526315791,
+          "end_time": 12132.480000000001
+        }
+      ]
+    },
+    {
+      "text": "README written.",
+      "start_time": 12132.480000000001,
+      "end_time": 13414.080000000002,
+      "words": [
+        {
+          "text": "README",
+          "start_time": 12132.480000000001,
+          "end_time": 12681.737142857144
+        },
+        {
+          "text": "written.",
+          "start_time": 12681.737142857144,
+          "end_time": 13414.080000000002
+        }
+      ]
+    },
+    {
+      "text": "Pre-launch teaser posted.",
+      "start_time": 13414.080000000002,
+      "end_time": 15550.080000000002,
+      "words": [
+        {
+          "text": "Pre-launch",
+          "start_time": 13414.080000000002,
+          "end_time": 14342.775652173914
+        },
+        {
+          "text": "teaser",
+          "start_time": 14342.775652173914,
+          "end_time": 14899.993043478262
+        },
+        {
+          "text": "posted.",
+          "start_time": 14899.993043478262,
+          "end_time": 15550.080000000002
+        }
+      ]
+    },
+    {
+      "text": "Early feedback gathered.",
+      "start_time": 15550.080000000002,
+      "end_time": 17600.640000000003,
+      "words": [
+        {
+          "text": "Early",
+          "start_time": 15550.080000000002,
+          "end_time": 16016.116363636365
+        },
+        {
+          "text": "feedback",
+          "start_time": 16016.116363636365,
+          "end_time": 16761.774545454547
+        },
+        {
+          "text": "gathered.",
+          "start_time": 16761.774545454547,
+          "end_time": 17600.640000000003
+        }
+      ]
+    },
+    {
+      "text": "Demo video recorded.",
+      "start_time": 17600.640000000003,
+      "end_time": 19309.440000000002,
+      "words": [
+        {
+          "text": "Demo",
+          "start_time": 17600.640000000003,
+          "end_time": 17980.373333333337
+        },
+        {
+          "text": "video",
+          "start_time": 17980.373333333337,
+          "end_time": 18455.040000000005
+        },
+        {
+          "text": "recorded.",
+          "start_time": 18455.040000000005,
+          "end_time": 19309.440000000002
+        }
+      ]
+    },
+    {
+      "text": "Post written with story and call to action.",
+      "start_time": 19309.440000000002,
+      "end_time": 22983.36,
+      "words": [
+        {
+          "text": "Post",
+          "start_time": 19309.440000000002,
+          "end_time": 19717.653333333335
+        },
+        {
+          "text": "written",
+          "start_time": 19717.653333333335,
+          "end_time": 20432.02666666667
+        },
+        {
+          "text": "with",
+          "start_time": 20432.02666666667,
+          "end_time": 20840.24
+        },
+        {
+          "text": "story",
+          "start_time": 20840.24,
+          "end_time": 21350.506666666668
+        },
+        {
+          "text": "and",
+          "start_time": 21350.506666666668,
+          "end_time": 21656.666666666668
+        },
+        {
+          "text": "call",
+          "start_time": 21656.666666666668,
+          "end_time": 22064.88
+        },
+        {
+          "text": "to",
+          "start_time": 22064.88,
+          "end_time": 22268.986666666668
+        },
+        {
+          "text": "action.",
+          "start_time": 22268.986666666668,
+          "end_time": 22983.36
+        }
+      ]
+    },
+    {
+      "text": "Launched on primary platform.",
+      "start_time": 22983.36,
+      "end_time": 25461.120000000003,
+      "words": [
+        {
+          "text": "Launched",
+          "start_time": 22983.36,
+          "end_time": 23745.747692307694
+        },
+        {
+          "text": "on",
+          "start_time": 23745.747692307694,
+          "end_time": 23936.344615384616
+        },
+        {
+          "text": "primary",
+          "start_time": 23936.344615384616,
+          "end_time": 24603.433846153846
+        },
+        {
+          "text": "platform.",
+          "start_time": 24603.433846153846,
+          "end_time": 25461.120000000003
+        }
+      ]
+    },
+    {
+      "text": "Cross-posted and shared in communities.",
+      "start_time": 25461.120000000003,
+      "end_time": 28793.280000000002,
+      "words": [
+        {
+          "text": "Cross-posted",
+          "start_time": 25461.120000000003,
+          "end_time": 26603.57485714286
+        },
+        {
+          "text": "and",
+          "start_time": 26603.57485714286,
+          "end_time": 26889.188571428575
+        },
+        {
+          "text": "shared",
+          "start_time": 26889.188571428575,
+          "end_time": 27460.416000000005
+        },
+        {
+          "text": "in",
+          "start_time": 27460.416000000005,
+          "end_time": 27650.82514285715
+        },
+        {
+          "text": "communities.",
+          "start_time": 27650.82514285715,
+          "end_time": 28793.280000000006
+        }
+      ]
+    },
+    {
+      "text": "Engaged with comments.",
+      "start_time": 28793.280000000002,
+      "end_time": 30672.960000000003,
+      "words": [
+        {
+          "text": "Engaged",
+          "start_time": 28793.280000000002,
+          "end_time": 29451.168
+        },
+        {
+          "text": "with",
+          "start_time": 29451.168,
+          "end_time": 29827.104000000003
+        },
+        {
+          "text": "comments.",
+          "start_time": 29827.104000000003,
+          "end_time": 30672.960000000003
+        }
+      ]
+    },
+    {
+      "text": "Retro completed.",
+      "start_time": 30672.960000000003,
+      "end_time": 32040.000000000004,
+      "words": [
+        {
+          "text": "Retro",
+          "start_time": 30672.960000000003,
+          "end_time": 31128.640000000003
+        },
+        {
+          "text": "completed.",
+          "start_time": 31128.640000000003,
+          "end_time": 32040.000000000004
+        }
+      ]
+    }
+  ]
+}

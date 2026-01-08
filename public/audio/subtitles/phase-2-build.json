@@ -1,0 +1,501 @@
+{
+  "section_id": "phase-2-build",
+  "section_title": "Phase 2: The Build",
+  "duration": 40068,
+  "sentences": [
+    {
+      "text": "Phase 2: The Build. Heads down, cameras optional.",
+      "start_time": 0,
+      "end_time": 3753.980879541109,
+      "words": [
+        {
+          "text": "Phase",
+          "start_time": 0,
+          "end_time": 446.90248565965584
+        },
+        {
+          "text": "2:",
+          "start_time": 446.90248565965584,
+          "end_time": 625.6634799235181
+        },
+        {
+          "text": "The",
+          "start_time": 625.6634799235181,
+          "end_time": 893.8049713193116
+        },
+        {
+          "text": "Build.",
+          "start_time": 893.8049713193116,
+          "end_time": 1430.0879541108984
+        },
+        {
+          "text": "Heads",
+          "start_time": 1430.0879541108984,
+          "end_time": 1876.9904397705543
+        },
+        {
+          "text": "down,",
+          "start_time": 1876.9904397705543,
+          "end_time": 2323.89292543021
+        },
+        {
+          "text": "cameras",
+          "start_time": 2323.89292543021,
+          "end_time": 2949.556405353728
+        },
+        {
+          "text": "optional.",
+          "start_time": 2949.556405353728,
+          "end_time": 3753.9808795411086
+        }
+      ]
+    },
+    {
+      "text": "Set up the project: repo, basic structure.",
+      "start_time": 3753.980879541109,
+      "end_time": 6971.6787762906315,
+      "words": [
+        {
+          "text": "Set",
+          "start_time": 3753.980879541109,
+          "end_time": 4022.1223709369024
+        },
+        {
+          "text": "up",
+          "start_time": 4022.1223709369024,
+          "end_time": 4200.883365200765
+        },
+        {
+          "text": "the",
+          "start_time": 4200.883365200765,
+          "end_time": 4469.0248565965585
+        },
+        {
+          "text": "project:",
+          "start_time": 4469.0248565965585,
+          "end_time": 5184.068833652008
+        },
+        {
+          "text": "repo,",
+          "start_time": 5184.068833652008,
+          "end_time": 5630.971319311664
+        },
+        {
+          "text": "basic",
+          "start_time": 5630.971319311664,
+          "end_time": 6077.87380497132
+        },
+        {
+          "text": "structure.",
+          "start_time": 6077.87380497132,
+          "end_time": 6971.6787762906315
+        }
+      ]
+    },
+    {
+      "text": "If recording, start the screen capture.",
+      "start_time": 6971.6787762906315,
+      "end_time": 9959.541108986617,
+      "words": [
+        {
+          "text": "If",
+          "start_time": 6971.6787762906315,
+          "end_time": 7147.435384096278
+        },
+        {
+          "text": "recording,",
+          "start_time": 7147.435384096278,
+          "end_time": 8026.218423124509
+        },
+        {
+          "text": "start",
+          "start_time": 8026.218423124509,
+          "end_time": 8465.609942638624
+        },
+        {
+          "text": "the",
+          "start_time": 8465.609942638624,
+          "end_time": 8729.244854347095
+        },
+        {
+          "text": "screen",
+          "start_time": 8729.244854347095,
+          "end_time": 9256.514677764033
+        },
+        {
+          "text": "capture.",
+          "start_time": 9256.514677764033,
+          "end_time": 9959.541108986617
+        }
+      ]
+    },
+    {
+      "text": "Build the core feature first. Skip the nice-to-haves.",
+      "start_time": 9959.541108986617,
+      "end_time": 14019.969407265777,
+      "words": [
+        {
+          "text": "Build",
+          "start_time": 9959.541108986617,
+          "end_time": 10400.892010973483
+        },
+        {
+          "text": "the",
+          "start_time": 10400.892010973483,
+          "end_time": 10665.702552165601
+        },
+        {
+          "text": "core",
+          "start_time": 10665.702552165601,
+          "end_time": 11018.783273755094
+        },
+        {
+          "text": "feature",
+          "start_time": 11018.783273755094,
+          "end_time": 11636.674536536706
+        },
+        {
+          "text": "first.",
+          "start_time": 11636.674536536706,
+          "end_time": 12166.295618920944
+        },
+        {
+          "text": "Skip",
+          "start_time": 12166.295618920944,
+          "end_time": 12519.376340510436
+        },
+        {
+          "text": "the",
+          "start_time": 12519.376340510436,
+          "end_time": 12784.186881702555
+        },
+        {
+          "text": "nice-to-haves.",
+          "start_time": 12784.186881702555,
+          "end_time": 14019.969407265777
+        }
+      ]
+    },
+    {
+      "text": "Document interesting moments and decisions as you go.",
+      "start_time": 14019.969407265777,
+      "end_time": 18080.397705544936,
+      "words": [
+        {
+          "text": "Document",
+          "start_time": 14019.969407265777,
+          "end_time": 14726.13085044476
+        },
+        {
+          "text": "interesting",
+          "start_time": 14726.13085044476,
+          "end_time": 15697.102834815863
+        },
+        {
+          "text": "moments",
+          "start_time": 15697.102834815863,
+          "end_time": 16314.994097597475
+        },
+        {
+          "text": "and",
+          "start_time": 16314.994097597475,
+          "end_time": 16579.804638789596
+        },
+        {
+          "text": "decisions",
+          "start_time": 16579.804638789596,
+          "end_time": 17374.236262365954
+        },
+        {
+          "text": "as",
+          "start_time": 17374.236262365954,
+          "end_time": 17550.7766231607
+        },
+        {
+          "text": "you",
+          "start_time": 17550.7766231607,
+          "end_time": 17815.58716435282
+        },
+        {
+          "text": "go.",
+          "start_time": 17815.58716435282,
+          "end_time": 18080.39770554494
+        }
+      ]
+    },
+    {
+      "text": "Hit blockers? That's content. Note them.",
+      "start_time": 18080.397705544936,
+      "end_time": 21144.871892925432,
+      "words": [
+        {
+          "text": "Hit",
+          "start_time": 18080.397705544936,
+          "end_time": 18343.06692160612
+        },
+        {
+          "text": "blockers?",
+          "start_time": 18343.06692160612,
+          "end_time": 19131.07456978968
+        },
+        {
+          "text": "That's",
+          "start_time": 19131.07456978968,
+          "end_time": 19656.41300191205
+        },
+        {
+          "text": "content.",
+          "start_time": 19656.41300191205,
+          "end_time": 20356.864244741875
+        },
+        {
+          "text": "Note",
+          "start_time": 20356.864244741875,
+          "end_time": 20707.089866156788
+        },
+        {
+          "text": "them.",
+          "start_time": 20707.089866156788,
+          "end_time": 21144.871892925432
+        }
+      ]
+    },
+    {
+      "text": "Time-box ruthlessly. Done is better than perfect.",
+      "start_time": 21144.871892925432,
+      "end_time": 24898.85277246654,
+      "words": [
+        {
+          "text": "Time-box",
+          "start_time": 21144.871892925432,
+          "end_time": 21843.286940281916
+        },
+        {
+          "text": "ruthlessly.",
+          "start_time": 21843.286940281916,
+          "end_time": 22803.607630397084
+        },
+        {
+          "text": "Done",
+          "start_time": 22803.607630397084,
+          "end_time": 23152.815154075328
+        },
+        {
+          "text": "is",
+          "start_time": 23152.815154075328,
+          "end_time": 23327.418915914448
+        },
+        {
+          "text": "better",
+          "start_time": 23327.418915914448,
+          "end_time": 23851.230201431812
+        },
+        {
+          "text": "than",
+          "start_time": 23851.230201431812,
+          "end_time": 24200.437725110056
+        },
+        {
+          "text": "perfect.",
+          "start_time": 24200.437725110056,
+          "end_time": 24898.85277246654
+        }
+      ]
+    },
+    {
+      "text": "Commit often. Push to GitHub.",
+      "start_time": 24898.85277246654,
+      "end_time": 27120.5965583174,
+      "words": [
+        {
+          "text": "Commit",
+          "start_time": 24898.85277246654,
+          "end_time": 25432.07128107075
+        },
+        {
+          "text": "often.",
+          "start_time": 25432.07128107075,
+          "end_time": 25965.289789674956
+        },
+        {
+          "text": "Push",
+          "start_time": 25965.289789674956,
+          "end_time": 26320.768795411095
+        },
+        {
+          "text": "to",
+          "start_time": 26320.768795411095,
+          "end_time": 26498.508298279165
+        },
+        {
+          "text": "GitHub.",
+          "start_time": 26498.508298279165,
+          "end_time": 27120.596558317404
+        }
+      ]
+    },
+    {
+      "text": "For Team Builds:",
+      "start_time": 27120.5965583174,
+      "end_time": 28346.3862332696,
+      "words": [
+        {
+          "text": "For",
+          "start_time": 27120.5965583174,
+          "end_time": 27383.265774378586
+        },
+        {
+          "text": "Team",
+          "start_time": 27383.265774378586,
+          "end_time": 27733.4913957935
+        },
+        {
+          "text": "Builds:",
+          "start_time": 27733.4913957935,
+          "end_time": 28346.3862332696
+        }
+      ]
+    },
+    {
+      "text": "Assign clear ownership. Who builds what.",
+      "start_time": 28346.3862332696,
+      "end_time": 31410.860420650097,
+      "words": [
+        {
+          "text": "Assign",
+          "start_time": 28346.3862332696,
+          "end_time": 28871.724665391972
+        },
+        {
+          "text": "clear",
+          "start_time": 28871.724665391972,
+          "end_time": 29309.506692160616
+        },
+        {
+          "text": "ownership.",
+          "start_time": 29309.506692160616,
+          "end_time": 30185.0707456979
+        },
+        {
+          "text": "Who",
+          "start_time": 30185.0707456979,
+          "end_time": 30447.739961759085
+        },
+        {
+          "text": "builds",
+          "start_time": 30447.739961759085,
+          "end_time": 30973.078393881457
+        },
+        {
+          "text": "what.",
+          "start_time": 30973.078393881457,
+          "end_time": 31410.8604206501
+        }
+      ]
+    },
+    {
+      "text": "Keep communication async-friendly with quick Slack or Discord updates.",
+      "start_time": 31410.860420650097,
+      "end_time": 36773.69024856597,
+      "words": [
+        {
+          "text": "Keep",
+          "start_time": 31410.860420650097,
+          "end_time": 31756.84944180596
+        },
+        {
+          "text": "communication",
+          "start_time": 31756.84944180596,
+          "end_time": 32881.313760562516
+        },
+        {
+          "text": "async-friendly",
+          "start_time": 32881.313760562516,
+          "end_time": 34092.275334608035
+        },
+        {
+          "text": "with",
+          "start_time": 34092.275334608035,
+          "end_time": 34438.264355763895
+        },
+        {
+          "text": "quick",
+          "start_time": 34438.264355763895,
+          "end_time": 34870.75063220872
+        },
+        {
+          "text": "Slack",
+          "start_time": 34870.75063220872,
+          "end_time": 35303.23690865355
+        },
+        {
+          "text": "or",
+          "start_time": 35303.23690865355,
+          "end_time": 35476.23141923148
+        },
+        {
+          "text": "Discord",
+          "start_time": 35476.23141923148,
+          "end_time": 36081.71220625424
+        },
+        {
+          "text": "updates.",
+          "start_time": 36081.71220625424,
+          "end_time": 36773.69024856597
+        }
+      ]
+    },
+    {
+      "text": "Sync at the halfway point: are we on track?",
+      "start_time": 36773.69024856597,
+      "end_time": 40068,
+      "words": [
+        {
+          "text": "Sync",
+          "start_time": 36773.69024856597,
+          "end_time": 37150.182791587
+        },
+        {
+          "text": "at",
+          "start_time": 37150.182791587,
+          "end_time": 37338.429063097516
+        },
+        {
+          "text": "the",
+          "start_time": 37338.429063097516,
+          "end_time": 37620.79847036329
+        },
+        {
+          "text": "halfway",
+          "start_time": 37620.79847036329,
+          "end_time": 38279.6604206501
+        },
+        {
+          "text": "point:",
+          "start_time": 38279.6604206501,
+          "end_time": 38844.39923518165
+        },
+        {
+          "text": "are",
+          "start_time": 38844.39923518165,
+          "end_time": 39126.76864244742
+        },
+        {
+          "text": "we",
+          "start_time": 39126.76864244742,
+          "end_time": 39315.01491395794
+        },
+        {
+          "text": "on",
+          "start_time": 39315.01491395794,
+          "end_time": 39503.26118546845
+        },
+        {
+          "text": "track?",
+          "start_time": 39503.26118546845,
+          "end_time": 40068
+        }
+      ]
+    }
+  ]
+}
