@@ -1,0 +1,58 @@
+/* Shipping Cycle - Vercel-style subtle animations */
+
+.cycle-trail {
+	offset-anchor: center;
+	animation: cycle-flow 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+	opacity: 0;
+}
+
+.cycle-trail-1 {
+	offset-path: path("M 100 45 Q 135 50 152 83");
+	animation-delay: 0s;
+}
+
+.cycle-trail-2 {
+	offset-path: path("M 152 83 Q 155 115 132 145");
+	animation-delay: 1s;
+}
+
+.cycle-trail-3 {
+	offset-path: path("M 132 145 Q 100 160 68 145");
+	animation-delay: 2s;
+}
+
+.cycle-trail-4 {
+	offset-path: path("M 68 145 Q 45 115 48 83");
+	animation-delay: 3s;
+}
+
+.cycle-trail-5 {
+	offset-path: path("M 48 83 Q 65 50 100 45");
+	animation-delay: 4s;
+}
+
+@keyframes cycle-flow {
+	0% {
+		offset-distance: 0%;
+		opacity: 0;
+	}
+	5% {
+		opacity: 0.5;
+	}
+	95% {
+		opacity: 0.5;
+	}
+	100% {
+		offset-distance: 100%;
+		opacity: 0;
+	}
+}
+
+/* Subtle node interaction */
+.cycle-node {
+	transition: opacity 0.3s ease;
+}
+
+.cycle-node:hover {
+	opacity: 0.8;
+}
