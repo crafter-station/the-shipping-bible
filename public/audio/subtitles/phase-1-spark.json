@@ -1,0 +1,498 @@
+{
+  "section_id": "phase-1-spark",
+  "section_title": "Phase 1: The Spark",
+  "duration": 41724,
+  "sentences": [
+    {
+      "text": "Phase 1: The Spark. From idea to commitment.",
+      "start_time": 0,
+      "end_time": 3671.712,
+      "words": [
+        {
+          "text": "Phase",
+          "start_time": 0,
+          "end_time": 496.17729729729734
+        },
+        {
+          "text": "1:",
+          "start_time": 496.17729729729734,
+          "end_time": 694.6482162162163
+        },
+        {
+          "text": "The",
+          "start_time": 694.6482162162163,
+          "end_time": 992.3545945945947
+        },
+        {
+          "text": "Spark.",
+          "start_time": 992.3545945945947,
+          "end_time": 1587.7673513513514
+        },
+        {
+          "text": "From",
+          "start_time": 1587.7673513513514,
+          "end_time": 1984.7091891891891
+        },
+        {
+          "text": "idea",
+          "start_time": 1984.7091891891891,
+          "end_time": 2381.651027027027
+        },
+        {
+          "text": "to",
+          "start_time": 2381.651027027027,
+          "end_time": 2580.1219459459458
+        },
+        {
+          "text": "commitment.",
+          "start_time": 2580.1219459459458,
+          "end_time": 3671.7119999999995
+        }
+      ]
+    },
+    {
+      "text": "Capture the idea using Notion, voice note, whatever works.",
+      "start_time": 3671.712,
+      "end_time": 8511.696,
+      "words": [
+        {
+          "text": "Capture",
+          "start_time": 3671.712,
+          "end_time": 4349.30976
+        },
+        {
+          "text": "the",
+          "start_time": 4349.30976,
+          "end_time": 4639.7088
+        },
+        {
+          "text": "idea",
+          "start_time": 4639.7088,
+          "end_time": 5026.907520000001
+        },
+        {
+          "text": "using",
+          "start_time": 5026.907520000001,
+          "end_time": 5510.905920000001
+        },
+        {
+          "text": "Notion,",
+          "start_time": 5510.905920000001,
+          "end_time": 6188.503680000002
+        },
+        {
+          "text": "voice",
+          "start_time": 6188.503680000002,
+          "end_time": 6672.502080000002
+        },
+        {
+          "text": "note,",
+          "start_time": 6672.502080000002,
+          "end_time": 7156.500480000002
+        },
+        {
+          "text": "whatever",
+          "start_time": 7156.500480000002,
+          "end_time": 7930.897920000002
+        },
+        {
+          "text": "works.",
+          "start_time": 7930.897920000002,
+          "end_time": 8511.696000000002
+        }
+      ]
+    },
+    {
+      "text": "Answer: Why this? Why now?",
+      "start_time": 8511.696,
+      "end_time": 10681.344,
+      "words": [
+        {
+          "text": "Answer:",
+          "start_time": 8511.696,
+          "end_time": 9202.038545454545
+        },
+        {
+          "text": "Why",
+          "start_time": 9202.038545454545,
+          "end_time": 9497.899636363636
+        },
+        {
+          "text": "this?",
+          "start_time": 9497.899636363636,
+          "end_time": 9991.001454545454
+        },
+        {
+          "text": "Why",
+          "start_time": 9991.001454545454,
+          "end_time": 10286.862545454545
+        },
+        {
+          "text": "now?",
+          "start_time": 10286.862545454545,
+          "end_time": 10681.344
+        }
+      ]
+    },
+    {
+      "text": "Is it fun? Does it showcase something we learned? Will it resonate with our community? Does it solve a real problem, even a small one?",
+      "start_time": 10681.344,
+      "end_time": 21863.376,
+      "words": [
+        {
+          "text": "Is",
+          "start_time": 10681.344,
+          "end_time": 10884.653672727272
+        },
+        {
+          "text": "it",
+          "start_time": 10884.653672727272,
+          "end_time": 11087.963345454546
+        },
+        {
+          "text": "fun?",
+          "start_time": 11087.963345454546,
+          "end_time": 11494.58269090909
+        },
+        {
+          "text": "Does",
+          "start_time": 11494.58269090909,
+          "end_time": 11901.202036363635
+        },
+        {
+          "text": "it",
+          "start_time": 11901.202036363635,
+          "end_time": 12104.511709090908
+        },
+        {
+          "text": "showcase",
+          "start_time": 12104.511709090908,
+          "end_time": 12917.750399999999
+        },
+        {
+          "text": "something",
+          "start_time": 12917.750399999999,
+          "end_time": 13832.643927272726
+        },
+        {
+          "text": "we",
+          "start_time": 13832.643927272726,
+          "end_time": 14035.953599999999
+        },
+        {
+          "text": "learned?",
+          "start_time": 14035.953599999999,
+          "end_time": 14849.19229090909
+        },
+        {
+          "text": "Will",
+          "start_time": 14849.19229090909,
+          "end_time": 15255.811636363635
+        },
+        {
+          "text": "it",
+          "start_time": 15255.811636363635,
+          "end_time": 15459.121309090908
+        },
+        {
+          "text": "resonate",
+          "start_time": 15459.121309090908,
+          "end_time": 16272.359999999999
+        },
+        {
+          "text": "with",
+          "start_time": 16272.359999999999,
+          "end_time": 16678.979345454543
+        },
+        {
+          "text": "our",
+          "start_time": 16678.979345454543,
+          "end_time": 16983.943854545454
+        },
+        {
+          "text": "community?",
+          "start_time": 16983.943854545454,
+          "end_time": 18000.49221818182
+        },
+        {
+          "text": "Does",
+          "start_time": 18000.49221818182,
+          "end_time": 18407.111563636365
+        },
+        {
+          "text": "it",
+          "start_time": 18407.111563636365,
+          "end_time": 18610.421236363636
+        },
+        {
+          "text": "solve",
+          "start_time": 18610.421236363636,
+          "end_time": 19118.69541818182
+        },
+        {
+          "text": "a",
+          "start_time": 19118.69541818182,
+          "end_time": 19220.350254545454
+        },
+        {
+          "text": "real",
+          "start_time": 19220.350254545454,
+          "end_time": 19626.9696
+        },
+        {
+          "text": "problem,",
+          "start_time": 19626.9696,
+          "end_time": 20440.20829090909
+        },
+        {
+          "text": "even",
+          "start_time": 20440.20829090909,
+          "end_time": 20846.827636363636
+        },
+        {
+          "text": "a",
+          "start_time": 20846.827636363636,
+          "end_time": 20948.48247272727
+        },
+        {
+          "text": "small",
+          "start_time": 20948.48247272727,
+          "end_time": 21456.756654545454
+        },
+        {
+          "text": "one?",
+          "start_time": 21456.756654545454,
+          "end_time": 21863.376
+        }
+      ]
+    },
+    {
+      "text": "Define the scope: What's the smallest shippable version?",
+      "start_time": 21863.376,
+      "end_time": 26536.464,
+      "words": [
+        {
+          "text": "Define",
+          "start_time": 21863.376,
+          "end_time": 22435.59085714286
+        },
+        {
+          "text": "the",
+          "start_time": 22435.59085714286,
+          "end_time": 22721.698285714287
+        },
+        {
+          "text": "scope:",
+          "start_time": 22721.698285714287,
+          "end_time": 23293.913142857145
+        },
+        {
+          "text": "What's",
+          "start_time": 23293.913142857145,
+          "end_time": 23866.128000000004
+        },
+        {
+          "text": "the",
+          "start_time": 23866.128000000004,
+          "end_time": 24152.235428571432
+        },
+        {
+          "text": "smallest",
+          "start_time": 24152.235428571432,
+          "end_time": 24915.188571428575
+        },
+        {
+          "text": "shippable",
+          "start_time": 24915.188571428575,
+          "end_time": 25773.51085714286
+        },
+        {
+          "text": "version?",
+          "start_time": 25773.51085714286,
+          "end_time": 26536.464000000004
+        }
+      ]
+    },
+    {
+      "text": "Set a time constraint: 2 hours? A weekend? One week max?",
+      "start_time": 26536.464,
+      "end_time": 31209.552,
+      "words": [
+        {
+          "text": "Set",
+          "start_time": 26536.464,
+          "end_time": 26841.230608695652
+        },
+        {
+          "text": "a",
+          "start_time": 26841.230608695652,
+          "end_time": 26942.81947826087
+        },
+        {
+          "text": "time",
+          "start_time": 26942.81947826087,
+          "end_time": 27349.17495652174
+        },
+        {
+          "text": "constraint:",
+          "start_time": 27349.17495652174,
+          "end_time": 28466.65252173913
+        },
+        {
+          "text": "2",
+          "start_time": 28466.65252173913,
+          "end_time": 28568.24139130435
+        },
+        {
+          "text": "hours?",
+          "start_time": 28568.24139130435,
+          "end_time": 29177.774608695654
+        },
+        {
+          "text": "A",
+          "start_time": 29177.774608695654,
+          "end_time": 29279.36347826087
+        },
+        {
+          "text": "weekend?",
+          "start_time": 29279.36347826087,
+          "end_time": 30092.07443478261
+        },
+        {
+          "text": "One",
+          "start_time": 30092.07443478261,
+          "end_time": 30396.841043478264
+        },
+        {
+          "text": "week",
+          "start_time": 30396.841043478264,
+          "end_time": 30803.196521739133
+        },
+        {
+          "text": "max?",
+          "start_time": 30803.196521739133,
+          "end_time": 31209.552000000003
+        }
+      ]
+    },
+    {
+      "text": "Decide the format: Solo build, Pair or team session, or Live build challenge.",
+      "start_time": 31209.552,
+      "end_time": 37635.048,
+      "words": [
+        {
+          "text": "Decide",
+          "start_time": 31209.552,
+          "end_time": 31802.67470769231
+        },
+        {
+          "text": "the",
+          "start_time": 31802.67470769231,
+          "end_time": 32099.236061538464
+        },
+        {
+          "text": "format:",
+          "start_time": 32099.236061538464,
+          "end_time": 32791.212553846155
+        },
+        {
+          "text": "Solo",
+          "start_time": 32791.212553846155,
+          "end_time": 33186.627692307695
+        },
+        {
+          "text": "build,",
+          "start_time": 33186.627692307695,
+          "end_time": 33779.750400000004
+        },
+        {
+          "text": "Pair",
+          "start_time": 33779.750400000004,
+          "end_time": 34175.165538461544
+        },
+        {
+          "text": "or",
+          "start_time": 34175.165538461544,
+          "end_time": 34372.873107692314
+        },
+        {
+          "text": "team",
+          "start_time": 34372.873107692314,
+          "end_time": 34768.288246153854
+        },
+        {
+          "text": "session,",
+          "start_time": 34768.288246153854,
+          "end_time": 35559.11852307693
+        },
+        {
+          "text": "or",
+          "start_time": 35559.11852307693,
+          "end_time": 35756.8260923077
+        },
+        {
+          "text": "Live",
+          "start_time": 35756.8260923077,
+          "end_time": 36152.24123076924
+        },
+        {
+          "text": "build",
+          "start_time": 36152.24123076924,
+          "end_time": 36646.51015384617
+        },
+        {
+          "text": "challenge.",
+          "start_time": 36646.51015384617,
+          "end_time": 37635.04800000002
+        }
+      ]
+    },
+    {
+      "text": "Commit publicly. Tweet it, post it, tell someone.",
+      "start_time": 37635.048,
+      "end_time": 41724,
+      "words": [
+        {
+          "text": "Commit",
+          "start_time": 37635.048,
+          "end_time": 38219.184
+        },
+        {
+          "text": "publicly.",
+          "start_time": 38219.184,
+          "end_time": 39095.388
+        },
+        {
+          "text": "Tweet",
+          "start_time": 39095.388,
+          "end_time": 39582.168
+        },
+        {
+          "text": "it,",
+          "start_time": 39582.168,
+          "end_time": 39874.236
+        },
+        {
+          "text": "post",
+          "start_time": 39874.236,
+          "end_time": 40263.659999999996
+        },
+        {
+          "text": "it,",
+          "start_time": 40263.659999999996,
+          "end_time": 40555.727999999996
+        },
+        {
+          "text": "tell",
+          "start_time": 40555.727999999996,
+          "end_time": 40945.151999999995
+        },
+        {
+          "text": "someone.",
+          "start_time": 40945.151999999995,
+          "end_time": 41723.99999999999
+        }
+      ]
+    }
+  ]
+}

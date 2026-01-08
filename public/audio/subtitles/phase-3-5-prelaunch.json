@@ -1,0 +1,961 @@
+{
+  "section_id": "phase-3-5-prelaunch",
+  "section_title": "Phase 3.5: The Pre-Launch",
+  "duration": 71712,
+  "sentences": [
+    {
+      "text": "Phase 3.5: The Pre-Launch. Build anticipation before you drop.",
+      "start_time": 0,
+      "end_time": 4367.528487229863,
+      "words": [
+        {
+          "text": "Phase",
+          "start_time": 0,
+          "end_time": 404.40078585461686
+        },
+        {
+          "text": "3.5:",
+          "start_time": 404.40078585461686,
+          "end_time": 727.9214145383104
+        },
+        {
+          "text": "The",
+          "start_time": 727.9214145383104,
+          "end_time": 970.5618860510805
+        },
+        {
+          "text": "Pre-Launch.",
+          "start_time": 970.5618860510805,
+          "end_time": 1860.2436149312375
+        },
+        {
+          "text": "Build",
+          "start_time": 1860.2436149312375,
+          "end_time": 2264.6444007858545
+        },
+        {
+          "text": "anticipation",
+          "start_time": 2264.6444007858545,
+          "end_time": 3235.206286836935
+        },
+        {
+          "text": "before",
+          "start_time": 3235.206286836935,
+          "end_time": 3720.487229862475
+        },
+        {
+          "text": "you",
+          "start_time": 3720.487229862475,
+          "end_time": 3963.127701375245
+        },
+        {
+          "text": "drop.",
+          "start_time": 3963.127701375245,
+          "end_time": 4367.528487229862
+        }
+      ]
+    },
+    {
+      "text": "The launch doesn't start when you post. It starts days or even hours before. Pre-launch is about warming up your audience, creating curiosity, and setting the stage for maximum impact.",
+      "start_time": 4367.528487229863,
+      "end_time": 17329.225933202357,
+      "words": [
+        {
+          "text": "The",
+          "start_time": 4367.528487229863,
+          "end_time": 4618.400050700298
+        },
+        {
+          "text": "launch",
+          "start_time": 4618.400050700298,
+          "end_time": 5120.143177641169
+        },
+        {
+          "text": "doesn't",
+          "start_time": 5120.143177641169,
+          "end_time": 5705.510159072185
+        },
+        {
+          "text": "start",
+          "start_time": 5705.510159072185,
+          "end_time": 6123.629431522911
+        },
+        {
+          "text": "when",
+          "start_time": 6123.629431522911,
+          "end_time": 6458.124849483491
+        },
+        {
+          "text": "you",
+          "start_time": 6458.124849483491,
+          "end_time": 6708.996412953927
+        },
+        {
+          "text": "post.",
+          "start_time": 6708.996412953927,
+          "end_time": 7127.115685404652
+        },
+        {
+          "text": "It",
+          "start_time": 7127.115685404652,
+          "end_time": 7294.363394384943
+        },
+        {
+          "text": "starts",
+          "start_time": 7294.363394384943,
+          "end_time": 7796.106521325813
+        },
+        {
+          "text": "days",
+          "start_time": 7796.106521325813,
+          "end_time": 8130.601939286394
+        },
+        {
+          "text": "or",
+          "start_time": 8130.601939286394,
+          "end_time": 8297.849648266683
+        },
+        {
+          "text": "even",
+          "start_time": 8297.849648266683,
+          "end_time": 8632.345066227264
+        },
+        {
+          "text": "hours",
+          "start_time": 8632.345066227264,
+          "end_time": 9050.46433867799
+        },
+        {
+          "text": "before.",
+          "start_time": 9050.46433867799,
+          "end_time": 9635.831320109006
+        },
+        {
+          "text": "Pre-launch",
+          "start_time": 9635.831320109006,
+          "end_time": 10472.069865010457
+        },
+        {
+          "text": "is",
+          "start_time": 10472.069865010457,
+          "end_time": 10639.317573990747
+        },
+        {
+          "text": "about",
+          "start_time": 10639.317573990747,
+          "end_time": 11057.436846441473
+        },
+        {
+          "text": "warming",
+          "start_time": 11057.436846441473,
+          "end_time": 11642.803827872489
+        },
+        {
+          "text": "up",
+          "start_time": 11642.803827872489,
+          "end_time": 11810.05153685278
+        },
+        {
+          "text": "your",
+          "start_time": 11810.05153685278,
+          "end_time": 12144.54695481336
+        },
+        {
+          "text": "audience,",
+          "start_time": 12144.54695481336,
+          "end_time": 12897.161645224667
+        },
+        {
+          "text": "creating",
+          "start_time": 12897.161645224667,
+          "end_time": 13566.152481145828
+        },
+        {
+          "text": "curiosity,",
+          "start_time": 13566.152481145828,
+          "end_time": 14402.391026047279
+        },
+        {
+          "text": "and",
+          "start_time": 14402.391026047279,
+          "end_time": 14653.262589517713
+        },
+        {
+          "text": "setting",
+          "start_time": 14653.262589517713,
+          "end_time": 15238.62957094873
+        },
+        {
+          "text": "the",
+          "start_time": 15238.62957094873,
+          "end_time": 15489.501134419164
+        },
+        {
+          "text": "stage",
+          "start_time": 15489.501134419164,
+          "end_time": 15907.62040686989
+        },
+        {
+          "text": "for",
+          "start_time": 15907.62040686989,
+          "end_time": 16158.491970340325
+        },
+        {
+          "text": "maximum",
+          "start_time": 16158.491970340325,
+          "end_time": 16743.85895177134
+        },
+        {
+          "text": "impact.",
+          "start_time": 16743.85895177134,
+          "end_time": 17329.225933202357
+        }
+      ]
+    },
+    {
+      "text": "Teaser Content:",
+      "start_time": 17329.225933202357,
+      "end_time": 18385.88605108055,
+      "words": [
+        {
+          "text": "Teaser",
+          "start_time": 17329.225933202357,
+          "end_time": 17782.080269435868
+        },
+        {
+          "text": "Content:",
+          "start_time": 17782.080269435868,
+          "end_time": 18385.88605108055
+        }
+      ]
+    },
+    {
+      "text": "Post a teaser 24 to 48 hours before launch. A blurred screenshot, a cryptic one-liner, or a short clip of the UI without full context.",
+      "start_time": 18385.88605108055,
+      "end_time": 27825.383104125736,
+      "words": [
+        {
+          "text": "Post",
+          "start_time": 18385.88605108055,
+          "end_time": 18729.1404893731
+        },
+        {
+          "text": "a",
+          "start_time": 18729.1404893731,
+          "end_time": 18814.95409894624
+        },
+        {
+          "text": "teaser",
+          "start_time": 18814.95409894624,
+          "end_time": 19329.83575638507
+        },
+        {
+          "text": "24",
+          "start_time": 19329.83575638507,
+          "end_time": 19501.462975531347
+        },
+        {
+          "text": "to",
+          "start_time": 19501.462975531347,
+          "end_time": 19673.090194677625
+        },
+        {
+          "text": "48",
+          "start_time": 19673.090194677625,
+          "end_time": 19844.717413823902
+        },
+        {
+          "text": "hours",
+          "start_time": 19844.717413823902,
+          "end_time": 20273.785461689593
+        },
+        {
+          "text": "before",
+          "start_time": 20273.785461689593,
+          "end_time": 20788.667119128422
+        },
+        {
+          "text": "launch.",
+          "start_time": 20788.667119128422,
+          "end_time": 21389.36238614039
+        },
+        {
+          "text": "A",
+          "start_time": 21389.36238614039,
+          "end_time": 21475.17599571353
+        },
+        {
+          "text": "blurred",
+          "start_time": 21475.17599571353,
+          "end_time": 22075.871262725497
+        },
+        {
+          "text": "screenshot,",
+          "start_time": 22075.871262725497,
+          "end_time": 23019.820968030017
+        },
+        {
+          "text": "a",
+          "start_time": 23019.820968030017,
+          "end_time": 23105.634577603156
+        },
+        {
+          "text": "cryptic",
+          "start_time": 23105.634577603156,
+          "end_time": 23706.329844615124
+        },
+        {
+          "text": "one-liner,",
+          "start_time": 23706.329844615124,
+          "end_time": 24564.465940346505
+        },
+        {
+          "text": "or",
+          "start_time": 24564.465940346505,
+          "end_time": 24736.093159492782
+        },
+        {
+          "text": "a",
+          "start_time": 24736.093159492782,
+          "end_time": 24821.90676906592
+        },
+        {
+          "text": "short",
+          "start_time": 24821.90676906592,
+          "end_time": 25250.97481693161
+        },
+        {
+          "text": "clip",
+          "start_time": 25250.97481693161,
+          "end_time": 25594.229255224163
+        },
+        {
+          "text": "of",
+          "start_time": 25594.229255224163,
+          "end_time": 25765.85647437044
+        },
+        {
+          "text": "the",
+          "start_time": 25765.85647437044,
+          "end_time": 26023.297303089854
+        },
+        {
+          "text": "UI",
+          "start_time": 26023.297303089854,
+          "end_time": 26194.92452223613
+        },
+        {
+          "text": "without",
+          "start_time": 26194.92452223613,
+          "end_time": 26795.6197892481
+        },
+        {
+          "text": "full",
+          "start_time": 26795.6197892481,
+          "end_time": 27138.87422754065
+        },
+        {
+          "text": "context.",
+          "start_time": 27138.87422754065,
+          "end_time": 27825.383104125754
+        }
+      ]
+    },
+    {
+      "text": "Share work-in-progress shots during the build.",
+      "start_time": 27825.383104125736,
+      "end_time": 31065.807465618862,
+      "words": [
+        {
+          "text": "Share",
+          "start_time": 27825.383104125736,
+          "end_time": 28220.55680674685
+        },
+        {
+          "text": "work-in-progress",
+          "start_time": 28220.55680674685,
+          "end_time": 29485.11265513441
+        },
+        {
+          "text": "shots",
+          "start_time": 29485.11265513441,
+          "end_time": 29880.28635775552
+        },
+        {
+          "text": "during",
+          "start_time": 29880.28635775552,
+          "end_time": 30354.49480090086
+        },
+        {
+          "text": "the",
+          "start_time": 30354.49480090086,
+          "end_time": 30591.599022473525
+        },
+        {
+          "text": "build.",
+          "start_time": 30591.599022473525,
+          "end_time": 31065.807465618862
+        }
+      ]
+    },
+    {
+      "text": "Drop hints in comments and replies on other posts.",
+      "start_time": 31065.807465618862,
+      "end_time": 34588.00785854617,
+      "words": [
+        {
+          "text": "Drop",
+          "start_time": 31065.807465618862,
+          "end_time": 31401.25512208813
+        },
+        {
+          "text": "hints",
+          "start_time": 31401.25512208813,
+          "end_time": 31820.564692674714
+        },
+        {
+          "text": "in",
+          "start_time": 31820.564692674714,
+          "end_time": 31988.288520909347
+        },
+        {
+          "text": "comments",
+          "start_time": 31988.288520909347,
+          "end_time": 32659.18383384788
+        },
+        {
+          "text": "and",
+          "start_time": 32659.18383384788,
+          "end_time": 32910.76957619983
+        },
+        {
+          "text": "replies",
+          "start_time": 32910.76957619983,
+          "end_time": 33497.80297502105
+        },
+        {
+          "text": "on",
+          "start_time": 33497.80297502105,
+          "end_time": 33665.526803255685
+        },
+        {
+          "text": "other",
+          "start_time": 33665.526803255685,
+          "end_time": 34084.83637384227
+        },
+        {
+          "text": "posts.",
+          "start_time": 34084.83637384227,
+          "end_time": 34588.007858546174
+        }
+      ]
+    },
+    {
+      "text": "Build in Public Updates:",
+      "start_time": 34588.00785854617,
+      "end_time": 36278.66404715127,
+      "words": [
+        {
+          "text": "Build",
+          "start_time": 34588.00785854617,
+          "end_time": 34990.545046309286
+        },
+        {
+          "text": "in",
+          "start_time": 34990.545046309286,
+          "end_time": 35151.55992141453
+        },
+        {
+          "text": "Public",
+          "start_time": 35151.55992141453,
+          "end_time": 35634.604546730276
+        },
+        {
+          "text": "Updates:",
+          "start_time": 35634.604546730276,
+          "end_time": 36278.664047151266
+        }
+      ]
+    },
+    {
+      "text": "Post \"Day 1 of building X\" updates.",
+      "start_time": 36278.66404715127,
+      "end_time": 38744.20432220039,
+      "words": [
+        {
+          "text": "Post",
+          "start_time": 36278.66404715127,
+          "end_time": 36618.7385678477
+        },
+        {
+          "text": "\"Day",
+          "start_time": 36618.7385678477,
+          "end_time": 36958.81308854413
+        },
+        {
+          "text": "1",
+          "start_time": 36958.81308854413,
+          "end_time": 37043.83171871823
+        },
+        {
+          "text": "of",
+          "start_time": 37043.83171871823,
+          "end_time": 37213.86897906645
+        },
+        {
+          "text": "building",
+          "start_time": 37213.86897906645,
+          "end_time": 37894.01802045931
+        },
+        {
+          "text": "X\"",
+          "start_time": 37894.01802045931,
+          "end_time": 38064.05528080753
+        },
+        {
+          "text": "updates.",
+          "start_time": 38064.05528080753,
+          "end_time": 38744.20432220039
+        }
+      ]
+    },
+    {
+      "text": "Share blockers and breakthroughs in real-time.",
+      "start_time": 38744.20432220039,
+      "end_time": 41984.62868369352,
+      "words": [
+        {
+          "text": "Share",
+          "start_time": 38744.20432220039,
+          "end_time": 39139.378024821504
+        },
+        {
+          "text": "blockers",
+          "start_time": 39139.378024821504,
+          "end_time": 39771.65594901529
+        },
+        {
+          "text": "and",
+          "start_time": 39771.65594901529,
+          "end_time": 40008.76017058796
+        },
+        {
+          "text": "breakthroughs",
+          "start_time": 40008.76017058796,
+          "end_time": 41036.21179740285
+        },
+        {
+          "text": "in",
+          "start_time": 41036.21179740285,
+          "end_time": 41194.28127845129
+        },
+        {
+          "text": "real-time.",
+          "start_time": 41194.28127845129,
+          "end_time": 41984.62868369352
+        }
+      ]
+    },
+    {
+      "text": "Tweet or post from the build session, even rough clips.",
+      "start_time": 41984.62868369352,
+      "end_time": 45859.049115913556,
+      "words": [
+        {
+          "text": "Tweet",
+          "start_time": 41984.62868369352,
+          "end_time": 42405.76133936961
+        },
+        {
+          "text": "or",
+          "start_time": 42405.76133936961,
+          "end_time": 42574.21440164004
+        },
+        {
+          "text": "post",
+          "start_time": 42574.21440164004,
+          "end_time": 42911.120526180915
+        },
+        {
+          "text": "from",
+          "start_time": 42911.120526180915,
+          "end_time": 43248.02665072179
+        },
+        {
+          "text": "the",
+          "start_time": 43248.02665072179,
+          "end_time": 43500.70624412745
+        },
+        {
+          "text": "build",
+          "start_time": 43500.70624412745,
+          "end_time": 43921.83889980354
+        },
+        {
+          "text": "session,",
+          "start_time": 43921.83889980354,
+          "end_time": 44595.651148885285
+        },
+        {
+          "text": "even",
+          "start_time": 44595.651148885285,
+          "end_time": 44932.55727342616
+        },
+        {
+          "text": "rough",
+          "start_time": 44932.55727342616,
+          "end_time": 45353.68992910225
+        },
+        {
+          "text": "clips.",
+          "start_time": 45353.68992910225,
+          "end_time": 45859.049115913556
+        }
+      ]
+    },
+    {
+      "text": "Use Stories on LinkedIn and Instagram for raw, unpolished updates.",
+      "start_time": 45859.049115913556,
+      "end_time": 50508.3536345776,
+      "words": [
+        {
+          "text": "Use",
+          "start_time": 45859.049115913556,
+          "end_time": 46103.74935373798
+        },
+        {
+          "text": "Stories",
+          "start_time": 46103.74935373798,
+          "end_time": 46674.7165753283
+        },
+        {
+          "text": "on",
+          "start_time": 46674.7165753283,
+          "end_time": 46837.85006721125
+        },
+        {
+          "text": "LinkedIn",
+          "start_time": 46837.85006721125,
+          "end_time": 47490.384034743045
+        },
+        {
+          "text": "and",
+          "start_time": 47490.384034743045,
+          "end_time": 47735.08427256747
+        },
+        {
+          "text": "Instagram",
+          "start_time": 47735.08427256747,
+          "end_time": 48469.18498604074
+        },
+        {
+          "text": "for",
+          "start_time": 48469.18498604074,
+          "end_time": 48713.88522386516
+        },
+        {
+          "text": "raw,",
+          "start_time": 48713.88522386516,
+          "end_time": 49040.15220763106
+        },
+        {
+          "text": "unpolished",
+          "start_time": 49040.15220763106,
+          "end_time": 49855.819667045806
+        },
+        {
+          "text": "updates.",
+          "start_time": 49855.819667045806,
+          "end_time": 50508.3536345776
+        }
+      ]
+    },
+    {
+      "text": "Early Access and Feedback:",
+      "start_time": 50508.3536345776,
+      "end_time": 52339.8978388998,
+      "words": [
+        {
+          "text": "Early",
+          "start_time": 50508.3536345776,
+          "end_time": 50906.515418125906
+        },
+        {
+          "text": "Access",
+          "start_time": 50906.515418125906,
+          "end_time": 51384.30955838387
+        },
+        {
+          "text": "and",
+          "start_time": 51384.30955838387,
+          "end_time": 51623.20662851285
+        },
+        {
+          "text": "Feedback:",
+          "start_time": 51623.20662851285,
+          "end_time": 52339.8978388998
+        }
+      ]
+    },
+    {
+      "text": "Create a simple waitlist using Tally, Notion form, or a landing page.",
+      "start_time": 52339.8978388998,
+      "end_time": 57200.534381139485,
+      "words": [
+        {
+          "text": "Create",
+          "start_time": 52339.8978388998,
+          "end_time": 52842.722308786666
+        },
+        {
+          "text": "a",
+          "start_time": 52842.722308786666,
+          "end_time": 52926.52638710114
+        },
+        {
+          "text": "simple",
+          "start_time": 52926.52638710114,
+          "end_time": 53429.35085698801
+        },
+        {
+          "text": "waitlist",
+          "start_time": 53429.35085698801,
+          "end_time": 54099.78348350382
+        },
+        {
+          "text": "using",
+          "start_time": 54099.78348350382,
+          "end_time": 54518.803875076206
+        },
+        {
+          "text": "Tally,",
+          "start_time": 54518.803875076206,
+          "end_time": 55021.62834496307
+        },
+        {
+          "text": "Notion",
+          "start_time": 55021.62834496307,
+          "end_time": 55524.45281484994
+        },
+        {
+          "text": "form,",
+          "start_time": 55524.45281484994,
+          "end_time": 55943.47320642232
+        },
+        {
+          "text": "or",
+          "start_time": 55943.47320642232,
+          "end_time": 56111.08136305128
+        },
+        {
+          "text": "a",
+          "start_time": 56111.08136305128,
+          "end_time": 56194.885441365754
+        },
+        {
+          "text": "landing",
+          "start_time": 56194.885441365754,
+          "end_time": 56781.513989567095
+        },
+        {
+          "text": "page.",
+          "start_time": 56781.513989567095,
+          "end_time": 57200.53438113948
+        }
+      ]
+    },
+    {
+      "text": "Invite 5 to 10 trusted people to try it before launch.",
+      "start_time": 57200.534381139485,
+      "end_time": 61004.51080550098,
+      "words": [
+        {
+          "text": "Invite",
+          "start_time": 57200.534381139485,
+          "end_time": 57719.25843900696
+        },
+        {
+          "text": "5",
+          "start_time": 57719.25843900696,
+          "end_time": 57805.71244865154
+        },
+        {
+          "text": "to",
+          "start_time": 57805.71244865154,
+          "end_time": 57978.620467940695
+        },
+        {
+          "text": "10",
+          "start_time": 57978.620467940695,
+          "end_time": 58151.52848722985
+        },
+        {
+          "text": "trusted",
+          "start_time": 58151.52848722985,
+          "end_time": 58756.706554741904
+        },
+        {
+          "text": "people",
+          "start_time": 58756.706554741904,
+          "end_time": 59275.43061260938
+        },
+        {
+          "text": "to",
+          "start_time": 59275.43061260938,
+          "end_time": 59448.338631898536
+        },
+        {
+          "text": "try",
+          "start_time": 59448.338631898536,
+          "end_time": 59707.70066083228
+        },
+        {
+          "text": "it",
+          "start_time": 59707.70066083228,
+          "end_time": 59880.60868012143
+        },
+        {
+          "text": "before",
+          "start_time": 59880.60868012143,
+          "end_time": 60399.33273798891
+        },
+        {
+          "text": "launch.",
+          "start_time": 60399.33273798891,
+          "end_time": 61004.51080550096
+        }
+      ]
+    },
+    {
+      "text": "Gather quick testimonials or reactions.",
+      "start_time": 61004.51080550098,
+      "end_time": 63751.827111984276,
+      "words": [
+        {
+          "text": "Gather",
+          "start_time": 61004.51080550098,
+          "end_time": 61475.47931518383
+        },
+        {
+          "text": "quick",
+          "start_time": 61475.47931518383,
+          "end_time": 61867.95307325287
+        },
+        {
+          "text": "testimonials",
+          "start_time": 61867.95307325287,
+          "end_time": 62809.890092618574
+        },
+        {
+          "text": "or",
+          "start_time": 62809.890092618574,
+          "end_time": 62966.87959584619
+        },
+        {
+          "text": "reactions.",
+          "start_time": 62966.87959584619,
+          "end_time": 63751.827111984276
+        }
+      ]
+    },
+    {
+      "text": "Fix critical issues based on early feedback.",
+      "start_time": 63751.827111984276,
+      "end_time": 66851.36345776031,
+      "words": [
+        {
+          "text": "Fix",
+          "start_time": 63751.827111984276,
+          "end_time": 63996.5273498087
+        },
+        {
+          "text": "critical",
+          "start_time": 63996.5273498087,
+          "end_time": 64649.06131734049
+        },
+        {
+          "text": "issues",
+          "start_time": 64649.06131734049,
+          "end_time": 65138.46179298934
+        },
+        {
+          "text": "based",
+          "start_time": 65138.46179298934,
+          "end_time": 65546.29552269672
+        },
+        {
+          "text": "on",
+          "start_time": 65546.29552269672,
+          "end_time": 65709.42901457967
+        },
+        {
+          "text": "early",
+          "start_time": 65709.42901457967,
+          "end_time": 66117.26274428704
+        },
+        {
+          "text": "feedback.",
+          "start_time": 66117.26274428704,
+          "end_time": 66851.36345776031
+        }
+      ]
+    },
+    {
+      "text": "Screenshot positive DMs and reactions with permission for launch day.",
+      "start_time": 66851.36345776031,
+      "end_time": 71712,
+      "words": [
+        {
+          "text": "Screenshot",
+          "start_time": 66851.36345776031,
+          "end_time": 67661.4695481336
+        },
+        {
+          "text": "positive",
+          "start_time": 67661.4695481336,
+          "end_time": 68309.55442043222
+        },
+        {
+          "text": "DMs",
+          "start_time": 68309.55442043222,
+          "end_time": 68552.58624754421
+        },
+        {
+          "text": "and",
+          "start_time": 68552.58624754421,
+          "end_time": 68795.6180746562
+        },
+        {
+          "text": "reactions",
+          "start_time": 68795.6180746562,
+          "end_time": 69524.71355599216
+        },
+        {
+          "text": "with",
+          "start_time": 69524.71355599216,
+          "end_time": 69848.75599214146
+        },
+        {
+          "text": "permission",
+          "start_time": 69848.75599214146,
+          "end_time": 70658.86208251475
+        },
+        {
+          "text": "for",
+          "start_time": 70658.86208251475,
+          "end_time": 70901.89390962674
+        },
+        {
+          "text": "launch",
+          "start_time": 70901.89390962674,
+          "end_time": 71387.95756385071
+        },
+        {
+          "text": "day.",
+          "start_time": 71387.95756385071,
+          "end_time": 71712.00000000001
+        }
+      ]
+    }
+  ]
+}
