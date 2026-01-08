@@ -1,387 +1,659 @@
 ---
 interface Props {
-  src: string;
-  title: string;
+	src: string;
+	title: string;
+	subtitlesUrl?: string;
 }
 
-const { src, title } = Astro.props;
+const { src, title, subtitlesUrl } = Astro.props;
 const audioId = `audio-${Math.random().toString(36).substring(2, 11)}`;
+const hasSubtitles = !!subtitlesUrl;
 ---
 
-<div class="audio-player">
-  <div class="audio-header">
-    <div class="audio-icon-wrapper">
-      <svg class="audio-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M9 18V5l12-2v13"></path>
-        <circle cx="6" cy="18" r="3"></circle>
-        <circle cx="18" cy="16" r="3"></circle>
-      </svg>
-    </div>
-    <span class="audio-title">{title}</span>
-  </div>
+<div class="audio-player" data-subtitles-url={subtitlesUrl}>
+	<div class="audio-header">
+		<div class="audio-icon-wrapper">
+			<svg class="audio-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<path d="M9 18V5l12-2v13"></path>
+				<circle cx="6" cy="18" r="3"></circle>
+				<circle cx="18" cy="16" r="3"></circle>
+			</svg>
+		</div>
+		<span class="audio-title">{title}</span>
+		{hasSubtitles && (
+			<button class="transcript-toggle" aria-label="Toggle transcript" aria-expanded="false">
+				<svg class="transcript-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+					<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+					<polyline points="14 2 14 8 20 8"></polyline>
+					<line x1="16" y1="13" x2="8" y2="13"></line>
+					<line x1="16" y1="17" x2="8" y2="17"></line>
+				</svg>
+			</button>
+		)}
+	</div>
 
-  <div class="audio-controls">
-    <button class="play-button" data-audio-id={audioId} aria-label="Play audio">
-      <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M8 5v14l11-7z"/>
-      </svg>
-      <svg class="pause-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
-        <path d="M6 4h4v16H6zM14 4h4v16h-4z"/>
-      </svg>
-    </button>
+	<div class="audio-controls">
+		<button class="play-button" data-audio-id={audioId} aria-label="Play audio">
+			<svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+				<path d="M8 5v14l11-7z"/>
+			</svg>
+			<svg class="pause-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
+				<path d="M6 4h4v16H6zM14 4h4v16h-4z"/>
+			</svg>
+		</button>
 
-    <div class="time-display current-time">0:00</div>
+		<div class="time-display current-time">0:00</div>
 
-    <div class="progress-bar-wrapper">
-      <div class="progress-bar">
-        <div class="progress-fill"></div>
-        <div class="progress-handle"></div>
-      </div>
-    </div>
+		<div class="progress-bar-wrapper">
+			<div class="progress-bar">
+				<div class="progress-fill"></div>
+				<div class="progress-handle"></div>
+			</div>
+		</div>
 
-    <div class="time-display duration-time">0:00</div>
+		<div class="time-display duration-time">0:00</div>
 
-    <button class="volume-button" aria-label="Toggle mute">
-      <svg class="volume-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-        <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-      </svg>
-      <svg class="mute-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
-        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-        <line x1="23" y1="9" x2="17" y2="15"></line>
-        <line x1="17" y1="9" x2="23" y2="15"></line>
-      </svg>
-    </button>
-  </div>
+		<button class="volume-button" aria-label="Toggle mute">
+			<svg class="volume-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+				<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+				<path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+			</svg>
+			<svg class="mute-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+				<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+				<line x1="23" y1="9" x2="17" y2="15"></line>
+				<line x1="17" y1="9" x2="23" y2="15"></line>
+			</svg>
+		</button>
+	</div>
 
-  <audio id={audioId} preload="metadata">
-    <source src={src} type="audio/mpeg" />
-    Your browser does not support the audio element.
-  </audio>
+	{hasSubtitles && (
+		<div class="transcript-container" hidden>
+			<div class="transcript-content">
+				<div class="transcript-loading">Loading transcript...</div>
+			</div>
+		</div>
+	)}
+
+	<audio id={audioId} preload="metadata">
+		<source src={src} type="audio/mpeg" />
+		Your browser does not support the audio element.
+	</audio>
 </div>
 
 <style>
-  .audio-player {
-    margin: 1.5rem 0;
-    padding: 1.25rem;
-    background: var(--bg);
-    border: 2px solid var(--border);
-    border-radius: 12px;
-    transition: all 0.3s ease;
-  }
+	.audio-player {
+		margin: 1.5rem 0;
+		padding: 1.25rem;
+		background: var(--bg);
+		border: 2px solid var(--border);
+		border-radius: 12px;
+		transition: all 0.3s ease;
+	}
 
-  .audio-player:hover {
-    border-color: var(--accent);
-    box-shadow: 0 4px 12px rgba(247, 223, 30, 0.1);
-  }
+	.audio-player:hover {
+		border-color: var(--accent);
+		box-shadow: 0 4px 12px rgba(247, 223, 30, 0.1);
+	}
 
-  .audio-header {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    margin-bottom: 1rem;
-  }
+	.audio-header {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		margin-bottom: 1rem;
+	}
 
-  .audio-icon-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    background: var(--accent);
-    border-radius: 8px;
-    flex-shrink: 0;
-  }
+	.audio-icon-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 32px;
+		height: 32px;
+		background: var(--accent);
+		border-radius: 8px;
+		flex-shrink: 0;
+	}
 
-  .audio-icon {
-    width: 18px;
-    height: 18px;
-    color: #000;
-  }
+	.audio-icon {
+		width: 18px;
+		height: 18px;
+		color: #000;
+	}
 
-  .audio-title {
-    flex: 1;
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: var(--text);
-    line-height: 1.3;
-  }
+	.audio-title {
+		flex: 1;
+		font-size: 0.95rem;
+		font-weight: 600;
+		color: var(--text);
+		line-height: 1.3;
+	}
 
-  .audio-controls {
-    display: grid;
-    grid-template-columns: 48px auto 1fr auto 36px;
-    align-items: center;
-    gap: 0.75rem;
-  }
+	.transcript-toggle {
+		width: 32px;
+		height: 32px;
+		border: none;
+		background: transparent;
+		border-radius: 8px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		transition: all 0.2s ease;
+		padding: 0;
+		color: var(--text);
+		opacity: 0.6;
+	}
 
-  .play-button {
-    width: 48px;
-    height: 48px;
-    border: none;
-    background: var(--accent);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    padding: 0;
-  }
+	.transcript-toggle:hover {
+		background: rgba(247, 223, 30, 0.15);
+		opacity: 1;
+	}
 
-  .play-button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 12px rgba(247, 223, 30, 0.3);
-  }
+	.transcript-toggle[aria-expanded="true"] {
+		background: rgba(247, 223, 30, 0.2);
+		opacity: 1;
+		color: var(--accent);
+	}
 
-  .play-button:active {
-    transform: scale(0.95);
-  }
+	.transcript-icon {
+		width: 18px;
+		height: 18px;
+	}
 
-  .play-icon,
-  .pause-icon {
-    width: 20px;
-    height: 20px;
-    color: #000;
-  }
+	.audio-controls {
+		display: grid;
+		grid-template-columns: 48px auto 1fr auto 36px;
+		align-items: center;
+		gap: 0.75rem;
+	}
 
-  .time-display {
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: var(--text);
-    font-variant-numeric: tabular-nums;
-    white-space: nowrap;
-  }
+	.play-button {
+		width: 48px;
+		height: 48px;
+		border: none;
+		background: var(--accent);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		transition: all 0.2s ease;
+		padding: 0;
+	}
 
-  .progress-bar-wrapper {
-    height: 40px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-  }
+	.play-button:hover {
+		transform: scale(1.05);
+		box-shadow: 0 4px 12px rgba(247, 223, 30, 0.3);
+	}
 
-  .progress-bar {
-    width: 100%;
-    height: 6px;
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-    position: relative;
-    overflow: visible;
-  }
+	.play-button:active {
+		transform: scale(0.95);
+	}
 
-  :global([data-theme="dark"]) .progress-bar {
-    background: rgba(255, 255, 255, 0.1);
-  }
+	.play-icon,
+	.pause-icon {
+		width: 20px;
+		height: 20px;
+		color: #000;
+	}
 
-  .progress-fill {
-    height: 100%;
-    background: var(--accent);
-    border-radius: 3px;
-    width: 0%;
-    transition: width 0.1s linear;
-    position: relative;
-  }
+	.time-display {
+		font-size: 0.8rem;
+		font-weight: 500;
+		color: var(--text);
+		font-variant-numeric: tabular-nums;
+		white-space: nowrap;
+	}
 
-  .progress-handle {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-    width: 14px;
-    height: 14px;
-    background: var(--accent);
-    border: 2px solid var(--bg);
-    border-radius: 50%;
-    opacity: 0;
-    transition: opacity 0.2s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
+	.progress-bar-wrapper {
+		height: 40px;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+	}
 
-  .progress-bar-wrapper:hover .progress-handle {
-    opacity: 1;
-  }
+	.progress-bar {
+		width: 100%;
+		height: 6px;
+		background: rgba(0, 0, 0, 0.1);
+		border-radius: 3px;
+		position: relative;
+		overflow: visible;
+	}
 
-  .volume-button {
-    width: 36px;
-    height: 36px;
-    border: none;
-    background: transparent;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    padding: 0;
-    color: var(--text);
-  }
+	:global([data-theme="dark"]) .progress-bar {
+		background: rgba(255, 255, 255, 0.1);
+	}
 
-  .volume-button:hover {
-    background: rgba(247, 223, 30, 0.1);
-  }
+	.progress-fill {
+		height: 100%;
+		background: var(--accent);
+		border-radius: 3px;
+		width: 0%;
+		transition: width 0.1s linear;
+		position: relative;
+	}
 
-  .volume-icon,
-  .mute-icon {
-    width: 20px;
-    height: 20px;
-  }
+	.progress-handle {
+		position: absolute;
+		top: 50%;
+		left: 0%;
+		transform: translate(-50%, -50%);
+		width: 14px;
+		height: 14px;
+		background: var(--accent);
+		border: 2px solid var(--bg);
+		border-radius: 50%;
+		opacity: 0;
+		transition: opacity 0.2s ease;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	}
 
-  audio {
-    display: none;
-  }
+	.progress-bar-wrapper:hover .progress-handle {
+		opacity: 1;
+	}
 
-  @media (max-width: 768px) {
-    .audio-player {
-      padding: 1rem;
-    }
+	.volume-button {
+		width: 36px;
+		height: 36px;
+		border: none;
+		background: transparent;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		transition: all 0.2s ease;
+		padding: 0;
+		color: var(--text);
+	}
 
-    .audio-header {
-      margin-bottom: 0.875rem;
-    }
+	.volume-button:hover {
+		background: rgba(247, 223, 30, 0.1);
+	}
 
-    .audio-icon-wrapper {
-      width: 28px;
-      height: 28px;
-    }
+	.volume-icon,
+	.mute-icon {
+		width: 20px;
+		height: 20px;
+	}
 
-    .audio-icon {
-      width: 16px;
-      height: 16px;
-    }
+	audio {
+		display: none;
+	}
 
-    .audio-title {
-      font-size: 0.875rem;
-    }
+	/* Transcript Styles */
+	.transcript-container {
+		margin-top: 1rem;
+		padding-top: 1rem;
+		border-top: 1px solid var(--border);
+		overflow: hidden;
+		animation: slideDown 0.3s ease;
+	}
 
-    .audio-controls {
-      grid-template-columns: 44px auto 1fr auto 32px;
-      gap: 0.5rem;
-    }
+	.transcript-container[hidden] {
+		display: none;
+	}
 
-    .play-button {
-      width: 44px;
-      height: 44px;
-    }
+	@keyframes slideDown {
+		from {
+			opacity: 0;
+			transform: translateY(-10px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
 
-    .time-display {
-      font-size: 0.75rem;
-    }
+	.transcript-content {
+		font-size: 0.9rem;
+		line-height: 1.8;
+		color: var(--text);
+		max-height: 300px;
+		overflow-y: auto;
+		padding-right: 0.5rem;
+	}
 
-    .volume-button {
-      width: 32px;
-      height: 32px;
-    }
-  }
+	.transcript-content::-webkit-scrollbar {
+		width: 6px;
+	}
 
-  @media (max-width: 480px) {
-    .audio-controls {
-      gap: 0.375rem;
-    }
+	.transcript-content::-webkit-scrollbar-track {
+		background: transparent;
+	}
 
-    .time-display {
-      font-size: 0.7rem;
-    }
-  }
+	.transcript-content::-webkit-scrollbar-thumb {
+		background: var(--border);
+		border-radius: 3px;
+	}
+
+	.transcript-loading {
+		text-align: center;
+		color: var(--text);
+		opacity: 0.6;
+		padding: 1rem;
+	}
+
+	:global(.transcript-sentence) {
+		display: inline;
+		padding: 2px 4px;
+		margin: 0 1px;
+		border-radius: 4px;
+		transition: all 0.15s ease;
+	}
+
+	:global(.transcript-sentence.active) {
+		background: rgba(247, 223, 30, 0.3);
+		color: var(--text);
+	}
+
+	:global(.transcript-sentence.past) {
+		opacity: 0.5;
+	}
+
+	:global(.transcript-word) {
+		display: inline;
+		padding: 1px 2px;
+		border-radius: 3px;
+		transition: all 0.1s ease;
+	}
+
+	:global(.transcript-word.active) {
+		background: var(--accent);
+		color: #000;
+		font-weight: 500;
+	}
+
+	@media (max-width: 768px) {
+		.audio-player {
+			padding: 1rem;
+		}
+
+		.audio-header {
+			margin-bottom: 0.875rem;
+		}
+
+		.audio-icon-wrapper {
+			width: 28px;
+			height: 28px;
+		}
+
+		.audio-icon {
+			width: 16px;
+			height: 16px;
+		}
+
+		.audio-title {
+			font-size: 0.875rem;
+		}
+
+		.audio-controls {
+			grid-template-columns: 44px auto 1fr auto 32px;
+			gap: 0.5rem;
+		}
+
+		.play-button {
+			width: 44px;
+			height: 44px;
+		}
+
+		.time-display {
+			font-size: 0.75rem;
+		}
+
+		.volume-button {
+			width: 32px;
+			height: 32px;
+		}
+
+		.transcript-content {
+			font-size: 0.85rem;
+			max-height: 200px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.audio-controls {
+			gap: 0.375rem;
+		}
+
+		.time-display {
+			font-size: 0.7rem;
+		}
+	}
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const audioPlayers = document.querySelectorAll('.audio-player');
+	interface SubtitleWord {
+		text: string;
+		start_time: number;
+		end_time: number;
+	}
 
-    audioPlayers.forEach((player) => {
-      const audio = player.querySelector('audio') as HTMLAudioElement;
-      const playButton = player.querySelector('.play-button') as HTMLButtonElement;
-      const playIcon = player.querySelector('.play-icon') as SVGElement;
-      const pauseIcon = player.querySelector('.pause-icon') as SVGElement;
-      const volumeButton = player.querySelector('.volume-button') as HTMLButtonElement;
-      const volumeIcon = player.querySelector('.volume-icon') as SVGElement;
-      const muteIcon = player.querySelector('.mute-icon') as SVGElement;
-      const progressBar = player.querySelector('.progress-bar') as HTMLDivElement;
-      const progressFill = player.querySelector('.progress-fill') as HTMLDivElement;
-      const progressHandle = player.querySelector('.progress-handle') as HTMLDivElement;
-      const currentTimeDisplay = player.querySelector('.current-time') as HTMLDivElement;
-      const durationDisplay = player.querySelector('.duration-time') as HTMLDivElement;
-      const progressBarWrapper = player.querySelector('.progress-bar-wrapper') as HTMLDivElement;
+	interface SubtitleSentence {
+		text: string;
+		start_time: number;
+		end_time: number;
+		words?: SubtitleWord[];
+	}
 
-      if (!audio) return;
+	interface SectionSubtitles {
+		section_id: string;
+		section_title: string;
+		duration: number;
+		sentences: SubtitleSentence[];
+	}
 
-      // Format time helper
-      const formatTime = (seconds: number): string => {
-        if (isNaN(seconds)) return '0:00';
-        const mins = Math.floor(seconds / 60);
-        const secs = Math.floor(seconds % 60);
-        return `${mins}:${secs.toString().padStart(2, '0')}`;
-      };
+	document.addEventListener('DOMContentLoaded', () => {
+		const audioPlayers = document.querySelectorAll('.audio-player');
 
-      // Play/Pause toggle
-      playButton?.addEventListener('click', () => {
-        if (audio.paused) {
-          audio.play();
-        } else {
-          audio.pause();
-        }
-      });
+		audioPlayers.forEach((player) => {
+			const audio = player.querySelector('audio') as HTMLAudioElement;
+			const playButton = player.querySelector('.play-button') as HTMLButtonElement;
+			const playIcon = player.querySelector('.play-icon') as SVGElement;
+			const pauseIcon = player.querySelector('.pause-icon') as SVGElement;
+			const volumeButton = player.querySelector('.volume-button') as HTMLButtonElement;
+			const volumeIcon = player.querySelector('.volume-icon') as SVGElement;
+			const muteIcon = player.querySelector('.mute-icon') as SVGElement;
+			const progressBar = player.querySelector('.progress-bar') as HTMLDivElement;
+			const progressFill = player.querySelector('.progress-fill') as HTMLDivElement;
+			const progressHandle = player.querySelector('.progress-handle') as HTMLDivElement;
+			const currentTimeDisplay = player.querySelector('.current-time') as HTMLDivElement;
+			const durationDisplay = player.querySelector('.duration-time') as HTMLDivElement;
+			const progressBarWrapper = player.querySelector('.progress-bar-wrapper') as HTMLDivElement;
+			const transcriptToggle = player.querySelector('.transcript-toggle') as HTMLButtonElement | null;
+			const transcriptContainer = player.querySelector('.transcript-container') as HTMLDivElement | null;
+			const transcriptContent = player.querySelector('.transcript-content') as HTMLDivElement | null;
 
-      audio.addEventListener('play', () => {
-        playIcon.style.display = 'none';
-        pauseIcon.style.display = 'block';
-      });
+			if (!audio) return;
 
-      audio.addEventListener('pause', () => {
-        playIcon.style.display = 'block';
-        pauseIcon.style.display = 'none';
-      });
+			let subtitles: SectionSubtitles | null = null;
+			let subtitlesLoaded = false;
 
-      // Volume toggle
-      volumeButton?.addEventListener('click', () => {
-        audio.muted = !audio.muted;
-        if (audio.muted) {
-          volumeIcon.style.display = 'none';
-          muteIcon.style.display = 'block';
-        } else {
-          volumeIcon.style.display = 'block';
-          muteIcon.style.display = 'none';
-        }
-      });
+			// Format time helper
+			const formatTime = (seconds: number): string => {
+				if (isNaN(seconds)) return '0:00';
+				const mins = Math.floor(seconds / 60);
+				const secs = Math.floor(seconds % 60);
+				return `${mins}:${secs.toString().padStart(2, '0')}`;
+			};
 
-      // Update progress
-      audio.addEventListener('timeupdate', () => {
-        const progress = (audio.currentTime / audio.duration) * 100;
-        progressFill.style.width = `${progress}%`;
-        progressHandle.style.left = `${progress}%`;
-        currentTimeDisplay.textContent = formatTime(audio.currentTime);
-      });
+			// Load subtitles
+			const loadSubtitles = async (): Promise<void> => {
+				const subtitlesUrl = (player as HTMLElement).dataset.subtitlesUrl;
+				if (!subtitlesUrl || subtitlesLoaded) return;
 
-      // Set duration - try multiple events to ensure it works
-      const updateDuration = () => {
-        if (audio.duration && !isNaN(audio.duration) && isFinite(audio.duration)) {
-          durationDisplay.textContent = formatTime(audio.duration);
-        }
-      };
+				try {
+					const response = await fetch(subtitlesUrl);
+					if (!response.ok) throw new Error('Failed to load subtitles');
+					subtitles = await response.json();
+					subtitlesLoaded = true;
+					renderTranscript();
+				} catch (error) {
+					console.warn('Could not load subtitles:', error);
+					if (transcriptContent) {
+						transcriptContent.innerHTML = '<div class="transcript-loading">Transcript not available</div>';
+					}
+				}
+			};
 
-      audio.addEventListener('loadedmetadata', updateDuration);
-      audio.addEventListener('durationchange', updateDuration);
-      audio.addEventListener('canplay', updateDuration);
+			// Render transcript with sentence spans
+			const renderTranscript = (): void => {
+				if (!transcriptContent || !subtitles) return;
 
-      // Fallback: check duration after a short delay
-      setTimeout(updateDuration, 100);
+				const html = subtitles.sentences.map((sentence, i) => {
+					if (sentence.words && sentence.words.length > 0) {
+						// Word-level highlighting available
+						const wordsHtml = sentence.words.map((word, j) =>
+							`<span class="transcript-word" data-start="${word.start_time}" data-end="${word.end_time}" data-word-index="${j}">${word.text}</span>`
+						).join(' ');
+						return `<span class="transcript-sentence" data-start="${sentence.start_time}" data-end="${sentence.end_time}" data-index="${i}">${wordsHtml}</span>`;
+					}
+					// Sentence-level only
+					return `<span class="transcript-sentence" data-start="${sentence.start_time}" data-end="${sentence.end_time}" data-index="${i}">${sentence.text}</span>`;
+				}).join(' ');
 
-      // Seek functionality
-      progressBarWrapper?.addEventListener('click', (e) => {
-        const rect = progressBar.getBoundingClientRect();
-        const clickX = e.clientX - rect.left;
-        const width = rect.width;
-        const percentage = clickX / width;
-        audio.currentTime = percentage * audio.duration;
-      });
+				transcriptContent.innerHTML = html;
+			};
 
-      // Reset on end
-      audio.addEventListener('ended', () => {
-        playIcon.style.display = 'block';
-        pauseIcon.style.display = 'none';
-        progressFill.style.width = '0%';
-        progressHandle.style.left = '0%';
-        currentTimeDisplay.textContent = '0:00';
-      });
-    });
-  });
+			// Update highlighting based on current time
+			const updateHighlighting = (currentTimeMs: number): void => {
+				if (!transcriptContent || !subtitles) return;
+
+				const sentences = transcriptContent.querySelectorAll('.transcript-sentence');
+				const words = transcriptContent.querySelectorAll('.transcript-word');
+
+				// Update sentence highlighting
+				sentences.forEach((el) => {
+					const start = parseFloat(el.getAttribute('data-start') || '0');
+					const end = parseFloat(el.getAttribute('data-end') || '0');
+
+					el.classList.remove('active', 'past');
+
+					if (currentTimeMs >= start && currentTimeMs < end) {
+						el.classList.add('active');
+						// Scroll into view if needed
+						const container = transcriptContent;
+						const elRect = el.getBoundingClientRect();
+						const containerRect = container.getBoundingClientRect();
+						if (elRect.top < containerRect.top || elRect.bottom > containerRect.bottom) {
+							el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+						}
+					} else if (currentTimeMs >= end) {
+						el.classList.add('past');
+					}
+				});
+
+				// Update word highlighting (if available)
+				words.forEach((el) => {
+					const start = parseFloat(el.getAttribute('data-start') || '0');
+					const end = parseFloat(el.getAttribute('data-end') || '0');
+
+					el.classList.remove('active');
+
+					if (currentTimeMs >= start && currentTimeMs < end) {
+						el.classList.add('active');
+					}
+				});
+			};
+
+			// Transcript toggle
+			transcriptToggle?.addEventListener('click', () => {
+				if (!transcriptContainer) return;
+
+				const isExpanded = transcriptToggle.getAttribute('aria-expanded') === 'true';
+				transcriptToggle.setAttribute('aria-expanded', String(!isExpanded));
+
+				if (isExpanded) {
+					transcriptContainer.hidden = true;
+				} else {
+					transcriptContainer.hidden = false;
+					if (!subtitlesLoaded) {
+						loadSubtitles();
+					}
+				}
+			});
+
+			// Play/Pause toggle
+			playButton?.addEventListener('click', () => {
+				if (audio.paused) {
+					audio.play();
+				} else {
+					audio.pause();
+				}
+			});
+
+			audio.addEventListener('play', () => {
+				playIcon.style.display = 'none';
+				pauseIcon.style.display = 'block';
+			});
+
+			audio.addEventListener('pause', () => {
+				playIcon.style.display = 'block';
+				pauseIcon.style.display = 'none';
+			});
+
+			// Volume toggle
+			volumeButton?.addEventListener('click', () => {
+				audio.muted = !audio.muted;
+				if (audio.muted) {
+					volumeIcon.style.display = 'none';
+					muteIcon.style.display = 'block';
+				} else {
+					volumeIcon.style.display = 'block';
+					muteIcon.style.display = 'none';
+				}
+			});
+
+			// Update progress and highlighting
+			audio.addEventListener('timeupdate', () => {
+				const progress = (audio.currentTime / audio.duration) * 100;
+				progressFill.style.width = `${progress}%`;
+				progressHandle.style.left = `${progress}%`;
+				currentTimeDisplay.textContent = formatTime(audio.currentTime);
+
+				// Update transcript highlighting (convert seconds to ms)
+				if (subtitlesLoaded) {
+					updateHighlighting(audio.currentTime * 1000);
+				}
+			});
+
+			// Set duration
+			const updateDuration = () => {
+				if (audio.duration && !isNaN(audio.duration) && isFinite(audio.duration)) {
+					durationDisplay.textContent = formatTime(audio.duration);
+				}
+			};
+
+			audio.addEventListener('loadedmetadata', updateDuration);
+			audio.addEventListener('durationchange', updateDuration);
+			audio.addEventListener('canplay', updateDuration);
+			setTimeout(updateDuration, 100);
+
+			// Seek functionality
+			progressBarWrapper?.addEventListener('click', (e) => {
+				const rect = progressBar.getBoundingClientRect();
+				const clickX = e.clientX - rect.left;
+				const width = rect.width;
+				const percentage = clickX / width;
+				audio.currentTime = percentage * audio.duration;
+			});
+
+			// Reset on end
+			audio.addEventListener('ended', () => {
+				playIcon.style.display = 'block';
+				pauseIcon.style.display = 'none';
+				progressFill.style.width = '0%';
+				progressHandle.style.left = '0%';
+				currentTimeDisplay.textContent = '0:00';
+
+				// Reset highlighting
+				if (transcriptContent) {
+					transcriptContent.querySelectorAll('.transcript-sentence, .transcript-word').forEach((el) => {
+						el.classList.remove('active', 'past');
+					});
+				}
+			});
+		});
+	});
 </script>
